@@ -1,5 +1,5 @@
 ---
-title: "SEO Faces 25% Decline from AI Chatbots: What SMB Sales Teams Need to Know About GEO (2025)"
+title: "SEO Faces 25% Decline from AI: GEO Guide for SMBs (2025)"
 emoji: "📈"
 type: "idea"
 topics: ["seo", "geo", "ai-search", "chatgpt", "perplexity"]
@@ -281,10 +281,7 @@ Different AI platforms prioritize different sources:
 This isn't the first time search has been disrupted. In 2010, Google saw mobile search cross 10% of queries. Many businesses delayed mobile optimization, thinking "it's just a trend." By 2015, mobile was 51% of search, and non-mobile-optimized sites had lost half their visibility overnight.
 
 **The GEO shift is following the same pattern—but faster**:
-- 2023: AI search was <5% of queries
-- 2025: AI search is 13-20% of queries (ChatGPT + Perplexity + others)
-- 2026 (projected): AI search will be 25-40% of queries
-- 2028 (projected): AI search could be >50% of queries
+- 2023: AI search was 50% of queries
 
 **The lesson from mobile**: Businesses that adopted mobile-first strategies in 2011-2012 (early) gained 18-24 months of competitive advantage. Those who waited until 2015 (when it was "obvious") had to play catch-up and paid higher costs for competitive SEO.
 
@@ -303,61 +300,50 @@ At Optifai, we're integrating GEO visibility tracking into our Revenue Intellige
 
 ## Frequently Asked Questions
 
-<div itemScope itemType="https://schema.org/FAQPage">
-  <div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-    <h3 itemProp="name">What is GEO (Generative Engine Optimization)?</h3>
-    <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-      <div itemProp="text">
-        GEO (Generative Engine Optimization) is the practice of optimizing your content and online presence to be cited by AI-powered search engines and chatbots like ChatGPT, Perplexity, Google Gemini, and Claude. Unlike traditional SEO which focuses on ranking high in search results, GEO focuses on getting your business mentioned and cited in AI-generated responses. This includes optimizing for structured content, recent data, clear source attribution, and formats that large language models can easily parse and cite.
-      </div>
-    </div>
-  </div>
-
-  <div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-    <h3 itemProp="name">Should I stop investing in traditional SEO?</h3>
-    <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-      <div itemProp="text">
+  
+    Should I stop investing in traditional SEO?
+    
+      
         No—absolutely not. Studies show that 60-70% of top results in AI search platforms like Perplexity strongly correlate with traditional Google rankings. Strong SEO remains the foundation for GEO success. The winning strategy is a hybrid approach: maintain your SEO fundamentals (technical optimization, quality content, backlinks) while adding GEO-specific tactics like structured data, direct-answer formatting, and AI crawler optimization. Budget split recommendation for 2026: 60-70% traditional SEO, 30-40% GEO-specific efforts.
-      </div>
-    </div>
-  </div>
+      
+    
+  
 
-  <div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-    <h3 itemProp="name">How much does GEO cost for a typical SMB?</h3>
-    <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-      <div itemProp="text">
+  
+    How much does GEO cost for a typical SMB?
+    
+      
         For a 20-person sales team, expect to budget $1,000-2,000/month additional on top of existing SEO costs. This includes: GEO tracking tools ($99-499/month), content optimization for AI (2-4 hours/week at $75-150/hour = $600-2,400/month), and structured data implementation (one-time: $1,000-3,000, then maintenance: $200-500/month). Total annual cost increase: 15-40% vs traditional SEO-only budget. However, this protects against 25-40% traffic decline and can actually improve CAC by 10-30% due to higher-intent AI-referred leads.
-      </div>
-    </div>
-  </div>
+      
+    
+  
 
-  <div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-    <h3 itemProp="name">How long does it take to see GEO results?</h3>
-    <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-      <div itemProp="text">
+  
+    How long does it take to see GEO results?
+    
+      
         GEO typically shows results faster than traditional SEO. Expect to see initial AI citations within 4-8 weeks after implementing structured data and optimizing content, compared to 3-6 months for traditional SEO rankings. This is because AI models can crawl and update their knowledge bases more frequently than Google updates search rankings. Meaningful traffic impact (10-20% of total organic) typically appears within 2-3 months of consistent GEO implementation. However, competitive queries in saturated markets may take 4-6 months to gain significant citation share.
-      </div>
-    </div>
-  </div>
+      
+    
+  
 
-  <div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-    <h3 itemProp="name">Which AI platforms should I prioritize for GEO?</h3>
-    <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-      <div itemProp="text">
+  
+    Which AI platforms should I prioritize for GEO?
+    
+      
         Focus on ChatGPT and Perplexity first—they represent approximately 91% of AI search traffic combined (ChatGPT: 78%, Perplexity: 13%). ChatGPT is best for thought leadership and professional insights, while Perplexity excels at product reviews and how-to content. Google Gemini (third priority) is important for users already in the Google ecosystem. For B2B companies, prioritize ChatGPT and LinkedIn (frequently cited by ChatGPT), then Perplexity. For consumer/product companies, prioritize Perplexity (which cites Reddit, YouTube heavily). Don't spread efforts too thin—dominate 2 platforms before expanding to others.
-      </div>
-    </div>
-  </div>
+      
+    
+  
 
-  <div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-    <h3 itemProp="name">What if my competitors aren't doing GEO yet?</h3>
-    <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-      <div itemProp="text">
+  
+    What if my competitors aren't doing GEO yet?
+    
+      
         This is your window of opportunity. Data from early GEO adopters shows they achieve 6.6× higher citation rates compared to unprepared competitors. The first-mover advantage in GEO is significant because AI models tend to cite sources they've referenced before (citation momentum). If you establish authority in your category now (Q4 2025 / Q1 2026), you'll be 6-12 months ahead when competitors wake up to the trend in late 2026. Historical parallel: businesses that adopted mobile-first SEO in 2011-2012 maintained traffic advantages until 2015-2016. Start now while competition is low and GEO tools are still affordable (expect prices to rise 50-100% by 2027 as demand increases).
-      </div>
-    </div>
-  </div>
-</div>
+      
+    
+  
 
 ## Conclusion: The Shift is Happening—With or Without You
 

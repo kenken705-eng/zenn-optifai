@@ -1,5 +1,5 @@
 ---
-title: "How a 50-Rep SaaS Company Doubled Win Rate from 18% to 36% with AI in 6 Months"
+title: "SaaS Company Doubled Win Rate 18%→36% with AI (6mo)"
 emoji: "📊"
 type: "idea"
 topics: ["case-study", "win-rate-improvement", "ai-sales", "lead-scoring", "sales-automation"]
@@ -272,7 +272,7 @@ After evaluating 4 platforms (Clari, Gong, People.ai, Optifai), TechVantage chos
   2. Identified 12 high-impact actions (e.g., send case study within 48 hrs of demo)
   3. Built playbooks in Optifai's workflow builder (drag-and-drop interface)
 - **Playbooks Created**:
-  - New Lead Triage (AI score < 50% → nurture; > 70% → immediate outreach)
+  - New Lead Triage (AI score  70% → immediate outreach)
   - Discovery Call Prep (auto-pull company data, recent news, tech stack)
   - Demo Follow-Up (personalized video recap + case study)
   - Proposal Follow-Up (3-touch sequence over 7 days)
@@ -514,44 +514,21 @@ We spent $89K and got back $1.27M in 6 months. But the real value isn't the math
 
 ## Frequently Asked Questions
 
-<div itemScope itemType="https://schema.org/FAQPage">
-
-  <div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-    <h3 itemProp="name">What's a "good" Win Rate for B2B SaaS?</h3>
-    <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-      <div itemProp="text">
-        Industry benchmarks vary by deal size and sales cycle, but general ranges:
-        - **SMB (< $10K ACV)**: 30-40% is healthy
-        - **Mid-Market ($10K-$50K ACV)**: 20-30% is typical
-        - **Enterprise (> $50K ACV)**: 15-25% is common
-
-        ([Source: Kixie SaaS Win Rate Benchmarks](https://www.kixie.com/sales-blog/saas-win-rate-benchmark-proven-sales-strategies/))
-
-        If your Win Rate is below these ranges, focus on **lead quality** (better targeting) and **sales execution** (playbook consistency) before adding more pipeline.
-      </div>
-    </div>
-  </div>
-
-  <div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-    <h3 itemProp="name">How long does AI lead scoring take to "learn" and become accurate?</h3>
-    <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-      <div itemProp="text">
+  
+    How long does AI lead scoring take to "learn" and become accurate?
+    
+      
         Most AI models need **500-1,000 historical deals** (mix of won and lost) to train effectively. TechVantage had 2,400 deals, so their model reached 81% accuracy in Week 2 and 89% accuracy by Week 8.
 
         If you have fewer deals:
-        - **< 500 deals**: Start with rule-based scoring, then transition to AI once you have enough data
-        - **500-1,000 deals**: Expect 70-75% accuracy initially, improving to 85%+ over 3-6 months
-        - **1,000+ deals**: Expect 80%+ accuracy from Day 1
+        - **
+    
+  
 
-        **Key**: AI improves over time. The more outcomes it sees, the smarter it gets.
-      </div>
-    </div>
-  </div>
-
-  <div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-    <h3 itemProp="name">Can we use AI scoring if we don't have a large sales team?</h3>
-    <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-      <div itemProp="text">
+  
+    Can we use AI scoring if we don't have a large sales team?
+    
+      
         Yes—AI scoring works for teams as small as 3-5 reps, as long as you have **historical deal data**. The benefit is even higher for small teams because every rep's time is precious.
 
         Example: A 5-person sales team using AI scoring can prioritize the top 20% of leads (vs. spreading time evenly across all leads). If AI scoring is 85% accurate, that 5-person team effectively becomes as productive as a 7-8 person team with no AI.
@@ -560,14 +537,14 @@ We spent $89K and got back $1.27M in 6 months. But the real value isn't the math
         - At least 300-500 historical deals (won + lost)
         - CRM data with deal outcomes, basic firmographics, and engagement data
         - Willingness to let AI "learn" for 30-60 days before expecting peak accuracy
-      </div>
-    </div>
-  </div>
+      
+    
+  
 
-  <div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-    <h3 itemProp="name">What if our sales process is complex—will automated playbooks work?</h3>
-    <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-      <div itemProp="text">
+  
+    What if our sales process is complex—will automated playbooks work?
+    
+      
         Yes—playbooks work best for *repeatable* steps (follow-ups, reminders, escalations), even in complex sales. The key is **conditional logic**.
 
         For example, TechVantage's enterprise deals (> $50K ACV) required legal review, security audits, and multi-stakeholder approval. Their playbook handled:
@@ -576,14 +553,14 @@ We spent $89K and got back $1.27M in 6 months. But the real value isn't the math
         - **Manual steps**: Complex negotiations stayed manual—but AI flagged when to involve leadership
 
         **Rule of thumb**: Automate 60-80% of tasks (follow-ups, data entry, reminders). Keep 20-40% manual (strategic calls, pricing negotiations).
-      </div>
-    </div>
-  </div>
+      
+    
+  
 
-  <div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-    <h3 itemProp="name">How do you measure Win Rate correctly?</h3>
-    <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-      <div itemProp="text">
+  
+    How do you measure Win Rate correctly?
+    
+      
         **Win Rate Formula**: (Closed-Won Deals) / (Closed-Won + Closed-Lost Deals) × 100%
 
         **Important**: Only count deals that reached "Qualified Opportunity" stage. Don't include:
@@ -596,14 +573,14 @@ We spent $89K and got back $1.27M in 6 months. But the real value isn't the math
         - Closed-Lost = prospect explicitly declined or went dark for 60+ days
 
         **Common Mistake**: Including all leads (not just opportunities) inflates your Win Rate. Example: If you have 1,000 leads but only 200 qualify to opportunities, use 200 as denominator—not 1,000.
-      </div>
-    </div>
-  </div>
+      
+    
+  
 
-  <div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-    <h3 itemProp="name">What other metrics improved besides Win Rate?</h3>
-    <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-      <div itemProp="text">
+  
+    What other metrics improved besides Win Rate?
+    
+      
         TechVantage saw improvements across multiple metrics:
 
         | **Metric** | **Before** | **After** | **Change** |
@@ -618,11 +595,9 @@ We spent $89K and got back $1.27M in 6 months. But the real value isn't the math
         **Sales Velocity** is especially important—it combines Win Rate, Deal Cycle, and Deal Size into one metric. Formula: (# Opportunities × Deal Size × Win Rate) ÷ Sales Cycle Length.
 
         Read more: [ARR Is a Vanity Metric. Welcome to Revenue Velocity.](/media/articles/arr-vanity-metric-revenue-velocity)
-      </div>
-    </div>
-  </div>
-
-</div>
+      
+    
+  
 
 ---
 

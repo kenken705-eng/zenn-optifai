@@ -380,54 +380,41 @@ In 5 years, we'll look back and laugh at the idea that salespeople had to manual
 
 ## Frequently Asked Questions
 
-<div itemScope itemType="https://schema.org/FAQPage">
-
-  <div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-    <h3 itemProp="name">What is a System of Record?</h3>
-    <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-      <div itemProp="text">
-        A System of Record is software designed to capture and store data for later analysis. Traditional CRMs like Salesforce, HubSpot, and Pipedrive are Systems of Record—they ask users to manually log activities (calls, emails, meetings) so managers can review pipeline reports and forecast revenue. The primary goal is **visibility into what happened**, not guidance on what to do next. System-of-Record CRMs typically require 8-10 hours/week of manual data entry per sales rep.
-      </div>
-    </div>
-  </div>
-
-  <div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-    <h3 itemProp="name">What is a System of Action?</h3>
-    <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-      <div itemProp="text">
+  
+    What is a System of Action?
+    
+      
         A System of Action is software designed to execute tasks and drive outcomes, not just record data. Instead of asking "What happened?" it answers "What should I do right now?" System-of-Action CRMs like Optifai auto-capture data from emails, calls, and meetings (zero manual input), prioritize deals by expected value, and proactively suggest actions—often pre-drafting emails or scheduling meetings for one-click execution. The goal is **revenue acceleration**, not data completeness.
-      </div>
-    </div>
-  </div>
+      
+    
+  
 
-  <div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-    <h3 itemProp="name">Can I keep my old CRM data when switching to a System of Action?</h3>
-    <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-      <div itemProp="text">
+  
+    Can I keep my old CRM data when switching to a System of Action?
+    
+      
         Yes. System-of-Action platforms (including Optifai) import all existing data from Salesforce, HubSpot, Pipedrive, or any other CRM via CSV or API. Contacts, deals, activities, custom fields—everything migrates over. What changes is the interface: instead of manually navigating records, you see prioritized action cards like "Call this person today—87% close probability." The data stays; the way you interact with it evolves. Migration typically takes 2-4 weeks.
-      </div>
-    </div>
-  </div>
+      
+    
+  
 
-  <div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-    <h3 itemProp="name">How long does it take to switch from System-of-Record to System-of-Action?</h3>
-    <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-      <div itemProp="text">
+  
+    How long does it take to switch from System-of-Record to System-of-Action?
+    
+      
         For SMB teams (5-20 reps), expect a 2-week implementation: Week 1 for data migration and setup, Week 2 for team training and workflow configuration. For mid-market teams (50-100 reps), plan for 4-6 weeks to account for custom integrations and change management. Most teams see 80-90% reduction in CRM admin time within the first month. The key is starting with a small pilot group (3-5 reps) to prove ROI before full rollout.
-      </div>
-    </div>
-  </div>
+      
+    
+  
 
-  <div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-    <h3 itemProp="name">Is Optifai the only System-of-Action CRM?</h3>
-    <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-      <div itemProp="text">
+  
+    Is Optifai the only System-of-Action CRM?
+    
+      
         No. The "System of Action" concept is a philosophy, not a single product. Optifai was built from the ground up with this philosophy (zero-input design, AI-powered prioritization, action-first UI). Some traditional CRMs like HubSpot and Salesforce are adding System-of-Action features (AI email drafting, predictive lead scoring), but they still require significant manual data entry because they were architecturally designed as Systems of Record. Other emerging players in the System-of-Action space include tools focused on conversation intelligence (Gong, Chorus) and revenue operations (Clari).
-      </div>
-    </div>
-  </div>
-
-</div>
+      
+    
+  
 
 ---
 

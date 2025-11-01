@@ -1,5 +1,5 @@
 ---
-title: "How a 12-Person SaaS Startup Cut CRM Costs 73% and Grew Revenue 156% in 6 Months"
+title: "SaaS Startup Cut CRM Costs 73%, Grew Revenue 156% (6mo)"
 emoji: "📊"
 type: "idea"
 topics: ["case-study", "crm-migration", "saas-startup", "sales-automation", "ai-sales"]

@@ -1,5 +1,5 @@
 ---
-title: "How a 25-Person Consulting Firm Automated 80% of Sales Admin and Grew Revenue 12% in 6 Months"
+title: "Consulting Firm Automated 80% Sales Admin, Grew Revenue 12% (6mo)"
 emoji: "📊"
 type: "idea"
 topics: ["case-study", "consulting-firms", "professional-services", "sales-automation", "crm-migration"]

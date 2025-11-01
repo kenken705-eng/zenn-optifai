@@ -169,25 +169,7 @@ Year 2+ Cost = Software + Integrations + Admin (no setup/migration)
 
 **9-10 points**:
 - Transparent pricing, no hidden fees
-- Year 1 TCO <$1,200/user for SMB
-- Monthly contracts available
-- Free tier or 30+ day trial
-
-**7-8 points**:
-- Clear pricing structure
-- Year 1 TCO $1,200-2,000/user
-- Annual contract required but reasonable
-- 14-30 day trial
-
-**4-6 points**:
-- Some hidden costs (implementation, integrations)
-- Year 1 TCO $2,000-3,500/user
-- Requires consultant for setup
-- <14 day trial or no trial
-
-**1-3 points**:
-- Opaque pricing, "contact sales"
-- Year 1 TCO >$3,500/user
+- Year 1 TCO $3,500/user
 - Implementation costs exceed software cost
 - No trial, high switching costs
 
@@ -249,22 +231,10 @@ You want **enough** customization to match your process without needing a develo
 - Example: **Insightly**, **Nutshell**
 
 **1-3 points**:
-- <10 custom fields
-- No automation
-- Fixed pipeline structure
-- Example: **Streak**, **Less Annoying CRM**
-
-### The Customization Test:
-
-During your trial, attempt these 3 customizations:
-1. **Add a custom field** called "Industry Vertical" with 5 dropdown options
-2. **Create a workflow rule**: "If deal value >$50K, notify VP of Sales"
+- $50K, notify VP of Sales"
 3. **Build a custom report**: "Deals by rep by stage for last 90 days"
 
-**Time it.** If all three take <30 minutes without consulting documentation, score high. If you need support tickets, score low.
-
-:::message
-**Pro Tip**: Beware "too much customization." If your vendor says "you can customize anything," ask: "What percentage of your customers require a dedicated admin or consultant?" If it's >50%, you're looking at high ongoing costs.
+**Time it.** If all three take 50%, you're looking at high ongoing costs.
 
 :::
 
@@ -327,57 +297,7 @@ If your CRM can't integrate with these tools, you're creating data silos and for
 - Example: **Insightly**, **Freshsales**
 
 **1-3 points**:
-- <20 integrations
-- No public API or very restrictive
-- Manual export/import only
-- Example: **Less Annoying CRM** (intentionally simple)
-
-### The Integration Test:
-
-List your top 5 mission-critical tools. Check:
-- Does the CRM have a **native integration**? (Best)
-- If not, is there a **Zapier connector**? (Good)
-- If not, can you use the **API**? (Requires dev)
-- If none, **deal-breaker** or acceptable manual workaround?
-
-**Example for a 20-person team:**
-1. Gmail ✅ Native
-2. Google Calendar ✅ Native
-3. Slack ✅ Native
-4. PandaDoc ✅ Native
-5. QuickBooks ⚠️ Zapier only
-
-**Score: 8/10** (four native, one requires Zapier but acceptable)
-
-:::alert
-**Hidden Cost Alert**: If your CRM requires Zapier for 3+ critical integrations, add **$300-500/month** to your TCO. Zapier is powerful but expensive at scale, and integrations can break when either platform updates its API.
-
-:::
-
----
-
-## 5. Automation Features
-
-**Why it matters**: Time is your team's most valuable resource. Automation converts repetitive manual tasks into set-it-and-forget-it workflows.
-
-According to [McKinsey's research](https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-social-economy), **30-40% of sales activities can be automated**. For a 15-person team, that's 180-240 hours per week redirected from admin work to selling.
-
-### Types of Automation:
-
-**1. Activity automation** (logging interactions):
-- Auto-log emails sent/received
-- Auto-create CRM record from business card scan
-- Auto-log calendar meetings
-- **Time saved**: 5-8 hours/rep/week
-
-**2. Data automation** (enriching records):
-- Auto-populate company data (revenue, employee count, industry)
-- Auto-score leads based on behavior
-- Auto-update deal stages based on activity
-- **Time saved**: 2-4 hours/rep/week
-
-**3. Workflow automation** (if-then logic):
-- "If lead score >80, assign to senior rep"
+- 80, assign to senior rep"
 - "If deal inactive 14 days, send alert to manager"
 - "If contact opens email 3 times, trigger task to call"
 - **Time saved**: 3-6 hours/manager/week
@@ -497,38 +417,7 @@ Most CRMs offer reports. The question is: **How much effort does it take to get 
 - Example: **Freshsales**, **Insightly**
 
 **1-3 points**:
-- <10 reports
-- No customization
-- Print or PDF only
-- Example: **Less Annoying CRM**
-
-### The Reporting Test:
-
-Try to build these 3 reports during your trial:
-1. **Pipeline by Stage** for current quarter, grouped by rep
-2. **Win Rate Trend** (last 12 months, by month)
-3. **Activity Leaderboard** (calls + emails per rep, last 30 days)
-
-**Time limit: 30 minutes.** If you need support docs or help tickets, score 6 or lower.
-
-:::alert
-**Red Flag**: If the vendor's demo shows beautiful dashboards but you can't recreate them in the trial, those are probably custom-built by their sales engineers—not available to you out of the box. Ask: "Can I build this exact dashboard in the trial?"
-
-:::
-
----
-
-## 7. Scalability: Planning for Growth
-
-**Why it matters**: Switching CRMs is painful (data migration, retraining, integration rebuilding). You want a CRM that can grow with you—but not overkill for where you are today.
-
-This is the **Goldilocks problem**: Choose too simple, you'll outgrow it in 18 months. Choose enterprise-grade, your 10-person team drowns in complexity.
-
-### The Growth Framework:
-
-**Stage 1: Startup (5-15 reps)**
-- Needs: Simple, fast, cheap
-- Priorities: Ease of use > Features
+-  Features
 - CRM Fit: Pipedrive, HubSpot Starter, Optifai, Zoho CRM
 
 **Stage 2: Growth (15-50 reps)**
@@ -571,178 +460,7 @@ This is the **Goldilocks problem**: Choose too simple, you'll outgrow it in 18 m
 - Example: **Insightly**, **Nutshell**
 
 **1-3 points**:
-- User limit: <10
-- No enterprise features available
-- Single team only
-- Example: **Streak**, **Less Annoying CRM**
-
-### The Scalability Test:
-
-Ask these questions:
-1. **What's your user limit** at our current plan?
-2. **What happens when we hit 50 users?** (New tier? Price per user changes?)
-3. **Can we add teams/territories** as we expand to multiple regions?
-4. **How do permissions work** for managers vs reps vs executives?
-5. **What features are locked** to higher tiers that we might need in 2 years?
-
-If answers are vague ("we can work something out"), **score low**. You want predictable scaling.
-
-:::message
-**Pro Tip**: Don't over-optimize for "what if we 10X in 3 years." Choose for your next 18-24 months. If you grow explosively (congrats!), you'll have revenue to afford migration costs. Most companies overestimate their growth rate and end up paying for unused enterprise features.
-
-:::
-
----
-
-## 8. Support & Training Quality
-
-**Why it matters**: When your CRM breaks or you hit a configuration wall, how fast can you get unblocked?
-
-Downtime is expensive. If your 20-person sales team can't access the CRM for 4 hours, that's **80 hours of lost productivity** (likely $6,000-10,000 in lost output).
-
-### Types of Support:
-
-**1. Documentation** (self-service):
-- Knowledge base articles
-- Video tutorials
-- Community forums
-- **Best for**: How-to questions, feature explanations
-
-**2. Chat Support**:
-- Live chat with support agent
-- Typical response time: 5-30 minutes
-- **Best for**: Quick questions, troubleshooting
-
-**3. Email Support**:
-- Submit ticket, get response via email
-- Typical response time: 2-24 hours
-- **Best for**: Non-urgent issues, detailed problems
-
-**4. Phone Support**:
-- Call a support line, speak to agent
-- Typical wait time: 5-20 minutes
-- **Best for**: Urgent issues, complex problems
-
-**5. Dedicated Support Manager**:
-- Assigned contact who knows your account
-- Typical for enterprise plans only
-- **Best for**: Strategic guidance, escalations
-
-### How to Score (1-10):
-
-**9-10 points**:
-- 24/7 chat and phone support
-- Dedicated customer success manager
-- Response time <1 hour
-- Extensive video library and docs
-- Active community forum
-- Example: **Salesforce** (Enterprise+), **HubSpot** (Enterprise)
-
-**7-8 points**:
-- Business hours chat and email support
-- Phone support for paid plans
-- Response time 2-4 hours
-- Good documentation
-- Example: **HubSpot** (Professional), **Pipedrive**, **Zoho CRM**
-
-**4-6 points**:
-- Email support only
-- Response time 12-24 hours
-- Basic documentation
-- No phone support
-- Example: **Freshsales**, **Insightly**, **Copper**
-
-**1-3 points**:
-- Email only with slow response (48+ hours)
-- Minimal documentation
-- Community forum with no official responses
-- Example: **Some low-cost CRMs**
-
-### The Support Test:
-
-During your trial:
-1. **Submit a chat question** (time the response)
-2. **Search the knowledge base** for "how to create custom field" (can you find it in <2 minutes?)
-3. **Post in community forum** if available (do you get a helpful answer in 24 hours?)
-4. **Email support with a technical question** (measure time to resolution)
-
-If you can't get a question answered in <30 minutes during business hours, **score 6 or lower**.
-
-:::alert
-**Red Flag**: Vendor promises "white-glove onboarding" but after you sign the contract, you're handed off to a ticketing system. During evaluation, ask: "Who will be my contact after I sign?" If they can't answer specifically, support will be impersonal.
-
-:::
-
----
-
-## 9. Mobile Experience
-
-**Why it matters**: Sales reps don't sit at desks. They're at client offices, trade shows, coffee shops. If your CRM is desktop-only, reps will either (a) delay data entry until they're back at their desk (data goes stale), or (b) not enter it at all (data is lost).
-
-According to [Zippia's research](https://www.zippia.com/advice/crm-statistics/), **65% of sales reps** who use mobile CRM achieve their quota, compared to **22% of reps** without mobile CRM.
-
-### Mobile Use Cases:
-
-**1. Pre-Meeting Prep** (5 minutes before meeting):
-- View contact record and deal history
-- Review past interactions
-- Check notes from colleagues
-
-**2. Post-Meeting Logging** (5 minutes after meeting):
-- Log meeting notes
-- Update deal stage
-- Set follow-up task
-- Scan business card
-
-**3. Pipeline Management** (in Uber between meetings):
-- Review today's deals
-- Check team pipeline
-- Respond to notification (deal stuck too long)
-
-**4. Quick Updates** (waiting for client in lobby):
-- Log phone call
-- Send follow-up email from template
-- Update deal value after verbal confirmation
-
-### How to Score (1-10):
-
-**9-10 points**:
-- Native iOS and Android apps
-- 90%+ feature parity with desktop
-- Offline mode (sync when online)
-- Voice-to-text for notes
-- Business card scanning
-- Push notifications for important updates
-- Example: **Salesforce Mobile**, **HubSpot Mobile**, **Pipedrive Mobile**
-
-**7-8 points**:
-- Native apps for iOS and Android
-- 70-90% feature parity
-- Online only (no offline mode)
-- Basic business card scan
-- Example: **Zoho CRM**, **Freshsales**
-
-**4-6 points**:
-- Mobile-responsive web app (not native)
-- 50-70% feature parity
-- Limited functionality (view only)
-- Example: **Insightly**, **Nutshell**
-
-**1-3 points**:
-- No mobile app
-- Desktop site doesn't work on mobile
-- Example: **Some legacy CRMs**
-
-### The Mobile Test:
-
-Install the mobile app and test these 5 tasks:
-1. **View a contact record** (all fields visible?)
-2. **Log a meeting note** (how many taps?)
-3. **Update a deal stage** (drag-and-drop or select?)
-4. **Create a new task** (voice input available?)
-5. **Pull up a pipeline view** (readable on phone screen?)
-
-**Time limit: 10 minutes total.** If any task is frustrating or requires >5 taps, score 6 or lower.
+- User limit: 5 taps, score 6 or lower.
 
 :::message
 **Pro Tip**: Give your least tech-savvy rep the mobile app during the trial. If they can use it successfully without training, it passes the real-world test. If they ask for help, the UX is too complex for daily adoption.
@@ -798,213 +516,10 @@ Even if you're not in a regulated industry (healthcare, finance), your customers
 - Data encryption at rest and in transit
 - SSO, 2FA, IP restrictions available
 - Choose data residency region
-- Daily backups, <4 hour RTO
-- Example: **Salesforce**, **HubSpot**, **Microsoft Dynamics**
-
-**7-8 points**:
-- SOC 2 Type II or equivalent
-- GDPR compliant
-- Data encryption (at least in transit)
-- 2FA available
-- Data stored in major regions (US, EU)
-- Daily backups
-- Example: **Pipedrive**, **Zoho CRM**, **Freshsales**
-
-**4-6 points**:
-- Claims compliance but no certifications
-- Basic encryption (HTTPS only)
-- 2FA optional or not available
-- Data location unclear
-- Backups weekly or undisclosed
-- Example: **Smaller CRM vendors**
-
-**1-3 points**:
-- No security certifications
-- No encryption or unclear
-- No 2FA
-- No backup guarantees
-- Example: **Avoid these**
-
-### The Security Test:
-
-Ask these questions (or check documentation):
-1. **Do you have SOC 2 Type II certification?** (Yes/No/In progress)
-2. **Where is our data stored?** (Which data centers?)
-3. **Is data encrypted at rest?** (Yes/No)
-4. **Do you support 2FA?** (SMS, authenticator apps, both?)
-5. **What's your data breach policy?** (How fast do you notify customers?)
-6. **What's your uptime SLA?** (99.9% = 8.7 hours downtime/year)
-
-If they can't answer clearly, **score 5 or lower**. Security isn't optional.
-
-:::alert
-**Critical for Enterprise Buyers**: If you're in finance, healthcare, or government, security should be weighted **2x** in your scorecard. A CRM that scores 6/10 on security is a deal-breaker, even if it's 9/10 on ease of use.
-
-:::
-
----
-
-## How to Use the Framework: Step-by-Step
-
-Now that you understand the 10 criteria, here's how to apply the framework to your CRM evaluation.
-
-### Step 1: Create Your Scorecard (15 minutes)
-
-Use this template (or download the spreadsheet version from Optifai.com/resources):
-
-| Criterion | Weight | HubSpot | Pipedrive | Optifai | Notes |
-|-----------|--------|---------|-----------|---------|-------|
-| 1. Ease of Use | 15% | __/10 | __/10 | __/10 | |
-| 2. Pricing & TCO | 15% | __/10 | __/10 | __/10 | |
-| 3. Customization | 10% | __/10 | __/10 | __/10 | |
-| 4. Integration | 10% | __/10 | __/10 | __/10 | |
-| 5. Automation | 10% | __/10 | __/10 | __/10 | |
-| 6. Reporting | 10% | __/10 | __/10 | __/10 | |
-| 7. Scalability | 10% | __/10 | __/10 | __/10 | |
-| 8. Support | 10% | __/10 | __/10 | __/10 | |
-| 9. Mobile | 5% | __/10 | __/10 | __/10 | |
-| 10. Security | 5% | __/10 | __/10 | __/10 | |
-| **Weighted Total** | **100%** | __/10 | __/10 | __/10 | |
-
-**Note**: Weights shown are defaults for 10-30 person teams. Adjust based on your priorities (see next section).
-
-### Step 2: Adjust Weights for Your Team Size (10 minutes)
-
-**5-10 Person Team** (Speed to Value):
-- Ease of Use: **20%** (critical for adoption)
-- Pricing & TCO: **20%** (budget-constrained)
-- Automation: 5% (limited processes to automate)
-- Scalability: 5% (growth is 2+ years away)
-- Integration: **15%** (need Gmail/Calendar to work)
-- Rest: Default
-
-**10-30 Person Team** (Balanced):
-- Use default weights above
-
-**30-50 Person Team** (Sophistication):
-- Automation: **15%** (complex workflows)
-- Reporting: **15%** (managers need visibility)
-- Scalability: **15%** (growth imminent)
-- Ease of Use: 10% (willing to train for power)
-- Mobile: **10%** (field sales teams)
-- Rest: Adjust accordingly
-
-### Step 3: Score Each CRM (1-2 hours per CRM)
-
-For each CRM you're evaluating:
-1. **Sign up for trial** (all 3 CRMs simultaneously)
-2. **Run the tests** outlined in each section above
-3. **Score 1-10** based on rubrics
-4. **Write 1-2 sentence notes** explaining your score
-
-**Example scoring session (HubSpot Professional)**:
-- Ease of Use: **8/10** ("Clean UI, took 20 min to get comfortable")
-- Pricing & TCO: **7/10** ("$90/user = $16.2K/year for 15 users, reasonable")
-- Customization: **8/10** ("100 custom fields, visual workflows, good for us")
-- Integration: **9/10** ("All our tools have native integrations")
-- Automation: **9/10** ("Lead scoring, sequences, workflows all excellent")
-- Reporting: **8/10** ("Pre-built templates covered 80%, built custom in 15 min")
-- Scalability: **8/10** ("Can handle 200 users, multi-team support")
-- Support: **8/10** ("Chat response in 3 min, excellent docs")
-- Mobile: **9/10** ("Native app, 90% feature parity, business card scan")
-- Security: **9/10** ("SOC 2 Type II, GDPR, data encryption, 2FA")
-
-**Weighted Score**:
-```
-(8×15%) + (7×15%) + (8×10%) + (9×10%) + (9×10%) + (8×10%) + (8×10%) + (8×10%) + (9×5%) + (9×5%)
-= 1.20 + 1.05 + 0.80 + 0.90 + 0.90 + 0.80 + 0.80 + 0.80 + 0.45 + 0.45
-= 8.15 / 10
-```
-
-### Step 4: Compare and Decide (30 minutes)
-
-**Decision Logic**:
-- **Highest score wins** (unless within 0.3 points—then it's a toss-up)
-- **Check deal-breakers** (any score <5 on must-have criterion?)
-- **Consider total cost** (higher score but 2x price may not be worth it)
-
----
-
-## Common Mistakes to Avoid
-
-After watching 150+ teams evaluate CRMs, here are the mistakes that lead to buyer's remorse:
-
-### Mistake #1: Choosing Based on Features You Don't Need
-
-**Symptoms**:
-- "This CRM has 83 features and that one only has 62"
-- Selecting enterprise CRM for 10-person team
-- Paying for modules you never activate
-
-**Solution**: List your top 10 must-have features **before** evaluating. Ignore everything else.
-
-### Mistake #2: Not Involving Your Sales Reps
-
-**Symptoms**:
-- Executives choose CRM, reps revolt
-- "They'll get used to it" (spoiler: they won't)
-- Adoption is <50% six months later
-
-**Solution**: Include 2-3 reps in the evaluation committee. They'll catch usability issues executives miss.
-
-### Mistake #3: Over-Weighting Price
-
-**Symptoms**:
-- Choosing the cheapest option
-- "It's only $10/user, let's try it"
-- Ignoring TCO (setup, training, integrations)
-
-**Solution**: Calculate true TCO (see section 2). A $10/month tool that requires 40 hours of consulting setup costs more than a $50/month tool with self-service setup.
-
-### Mistake #4: Skipping the Trial
-
-**Symptoms**:
-- "The demo looked great, let's sign"
-- Not testing with real data
-- Not having reps actually use it for a week
-
-**Solution**: **Mandatory 2-week trial** with your actual data, your actual workflows, and your actual team using it daily.
-
-### Mistake #5: Ignoring Migration Complexity
-
-**Symptoms**:
-- "We'll just export and import"
-- Underestimating data cleaning needed
-- No plan for historical data
-
-**Solution**: Ask vendors: "What's the typical data migration process? How long? Who does it?" Add that time/cost to your TCO.
-
-:::alert
-**The Biggest Mistake**: Choosing a CRM for "future needs" instead of current needs. A 12-person team doesn't need Salesforce's enterprise features "for when we're 200 people." By the time you're 200 people, CRM technology will have evolved. Choose for today + 18 months.
-
-:::
-
----
-
-## FAQ
-
-<div itemScope itemType="https://schema.org/FAQPage">
-  <div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-    <h3 itemProp="name">Which criterion is most important when choosing a CRM?</h3>
-    <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-      <div itemProp="text">
-        **Ease of use** is the most important criterion for SMB teams (5-50 reps) because it determines user adoption. According to our analysis of 150 CRM implementations, systems with high ease-of-use scores (8+/10) achieved 85% user adoption within 60 days, while complex systems (≤6/10) averaged only 40% adoption. A CRM your team won't use is worthless, regardless of features.
-
-        However, the "most important" criterion changes by team size:
-        - **5-10 person teams**: Ease of Use (20% weight)
-        - **10-30 person teams**: Tie between Ease of Use and Pricing (15% each)
-        - **30-50 person teams**: Automation and Reporting (15% each)
-        - **Enterprise (50+)**: Scalability and Security (15% each)
-
-        The framework in this guide uses **weighted scoring** to account for these differences. Adjust the weights based on your team's priorities.
-      </div>
-    </div>
-  </div>
-
-  <div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-    <h3 itemProp="name">How long should CRM evaluation take?</h3>
-    <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-      <div itemProp="text">
+- Daily backups, 
+    How long should CRM evaluation take?
+    
+      
         A thorough CRM evaluation using this framework takes **2-3 weeks**:
 
         **Week 1: Research and Shortlist** (8 hours)
@@ -1029,14 +544,14 @@ After watching 150+ teams evaluate CRMs, here are the mistakes that lead to buye
         **Total: 28-33 hours** across 2-3 weeks.
 
         Don't rush this. A bad CRM decision costs 10-20x more in lost productivity, switching costs, and lost deals than the time invested in proper evaluation.
-      </div>
-    </div>
-  </div>
+      
+    
+  
 
-  <div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-    <h3 itemProp="name">What's a good weighted score threshold for choosing a CRM?</h3>
-    <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-      <div itemProp="text">
+  
+    What's a good weighted score threshold for choosing a CRM?
+    
+      
         Using the 10-point framework with weighted criteria:
 
         - **8.5-10.0 = Excellent fit**: Proceed with confidence
@@ -1054,14 +569,14 @@ After watching 150+ teams evaluate CRMs, here are the mistakes that lead to buye
         - **Third place: 6.8-7.4** (acceptable fallback)
 
         If all options score below 7.0, expand your search—you haven't found the right fit yet.
-      </div>
-    </div>
-  </div>
+      
+    
+  
 
-  <div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-    <h3 itemProp="name">Should I choose a CRM with a free plan or free trial?</h3>
-    <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-      <div itemProp="text">
+  
+    Should I choose a CRM with a free plan or free trial?
+    
+      
         **Always start with a trial** (free plan or 14-30 day trial). Never buy a CRM based on demos alone—you need hands-on experience with your data and workflows.
 
         **Free Plans** (e.g., HubSpot Free, Zoho CRM Free):
@@ -1077,14 +592,14 @@ After watching 150+ teams evaluate CRMs, here are the mistakes that lead to buye
         **Recommendation**: Start with free plans if available (HubSpot, Zoho) to casually test. When you're ready to seriously evaluate, sign up for paid trials of your top 3 simultaneously. Use all three in parallel for 2 weeks, then decide.
 
         **Red flag**: If a CRM doesn't offer a free plan or trial, walk away. Any modern SaaS tool confident in its product offers hands-on testing.
-      </div>
-    </div>
-  </div>
+      
+    
+  
 
-  <div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-    <h3 itemProp="name">Can I use this framework to compare CRM and all-in-one platforms like HubSpot?</h3>
-    <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-      <div itemProp="text">
+  
+    Can I use this framework to compare CRM and all-in-one platforms like HubSpot?
+    
+      
         Yes, this framework works for both **pure-play CRMs** (Pipedrive, Salesforce Sales Cloud) and **all-in-one platforms** (HubSpot, Zoho, Freshworks).
 
         However, adjust your evaluation approach:
@@ -1110,10 +625,9 @@ After watching 150+ teams evaluate CRMs, here are the mistakes that lead to buye
         - If you only need CRM, score the $90 plan, not the $800 plan
 
         In practice, teams under 20 people often prefer pure-play CRMs for simplicity. Teams 20-50+ gravitate toward all-in-one platforms for unified data and reporting.
-      </div>
-    </div>
-  </div>
-</div>
+      
+    
+  
 
 ---
 

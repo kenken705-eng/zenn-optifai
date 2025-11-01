@@ -288,36 +288,7 @@ First, experience AI-Native CRM effectiveness through a free trial.
 
 ## Frequently Asked Questions (FAQ)
 
-<div itemScope itemType="https://schema.org/FAQPage">
-
-<div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-<h3 itemProp="name">What budget is needed for AI implementation?</h3>
-<div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-<div itemProp="text">
-
-Budget depends on company scale and tools, but for SMB-focused AI-Native CRMs, starting from approximately **$29-$198/month** is possible.
-
-**Specific pricing examples**:
-- **Optifai Pro Plan**: $58/month (single user, includes AI lead scoring, automation, Revenue Lift measurement)
-- **Optifai Team Plan**: $198/month (up to 50 users, full features)
-- **Optifai Scale Plan**: $498/month (unlimited users, enterprise features)
-
-To minimize initial costs, choosing tools that can integrate with existing CRMs enables phased implementation without complete migration.
-
-For Optifai, you can verify effectiveness with a **14-day free trial** (no credit card required) before committing to any plan.
-
-**Total Cost of Ownership for 20-person team (3 years)**:
-- Optifai: $198/month × 36 months = $7,128 + $0-2,000 implementation = **$7,128-9,128 total**
-- Compare to: Salesforce ($105,000-120,000) or HubSpot ($37,400-42,400) for same period
-
-</div>
-</div>
-</div>
-
-<div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-<h3 itemProp="name">Is AI utilization effective even for small teams (5-10 people)?</h3>
-<div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-<div itemProp="text">
+Is AI utilization effective even for small teams (5-10 people)?
 
 Yes, **small teams especially see significant AI utilization effects** due to limited resources requiring maximum efficiency.
 
@@ -334,14 +305,7 @@ With limited personnel needing to handle many deals simultaneously, AI prioritiz
 3. Immediate ROI visibility (small datasets mean AI learns patterns faster)
 4. Less organizational complexity (easier to change workflows)
 
-</div>
-</div>
-</div>
-
-<div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-<h3 itemProp="name">Is migration from existing CRMs (Salesforce or HubSpot) difficult?</h3>
-<div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-<div itemProp="text">
+Is migration from existing CRMs (Salesforce or HubSpot) difficult?
 
 Migration difficulty depends on data volume and customization complexity, but for standard CRM data (accounts, contacts, deals, activity history), most modern AI-Native CRMs provide **automated CSV import** and **field mapping** tools.
 
@@ -364,14 +328,7 @@ Total migration period: **2-4 weeks** on average
 - 5,000-50,000 contacts: 2-3 weeks (requires dedicated support)
 - 50,000+ contacts: 3-4 weeks (requires data cleansing phase)
 
-</div>
-</div>
-</div>
-
-<div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-<h3 itemProp="name">How reliable is AI scoring accuracy?</h3>
-<div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-<div itemProp="text">
+How reliable is AI scoring accuracy?
 
 AI scoring accuracy improves over time as the system learns from your historical sales data.
 
@@ -391,14 +348,7 @@ AI scoring accuracy improves over time as the system learns from your historical
 
 **Optifai transparency**: Dashboard shows score breakdown (firmographic 30 points, behavioral 25 points, intent 20 points, etc.) so reps understand the "why" behind each lead priority.
 
-</div>
-</div>
-</div>
-
-<div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-<h3 itemProp="name">I'm concerned whether sales reps can master AI tools after implementation</h3>
-<div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-<div itemProp="text">
+I'm concerned whether sales reps can master AI tools after implementation
 
 Latest AI-Native CRMs like Optifai feature **simpler UI design** and **less manual work** than traditional CRMs like Salesforce or HubSpot, making adoption easier.
 
@@ -421,12 +371,6 @@ Latest AI-Native CRMs like Optifai feature **simpler UI design** and **less manu
 - Live onboarding sessions with dedicated specialist
 - In-app contextual help ("What does this AI score mean?")
 - Ongoing support via chat/email (response within 24 hours)
-
-</div>
-</div>
-</div>
-
-</div>
 
 ---
 

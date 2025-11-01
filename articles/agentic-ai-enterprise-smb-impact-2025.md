@@ -42,24 +42,7 @@ Agentic AI represents a paradigm shift from AI copilots to autonomous AI agents 
 ## The News: What Happened
 
 **When**: October 2025 (ComputerWorld ongoing coverage series)
-**What**: Industry analysts forecast **33% of enterprise software will include agentic AI by 2028**, representing a 33× increase from 2024's <1% adoption
-**Source**: [ComputerWorld - Agentic AI: Ongoing Coverage of Its Impact on the Enterprise](https://www.computerworld.com/article/3843138/agentic-ai-ongoing-coverage-of-its-impact-on-the-enterprise.html)
-
-### Key Developments:
-
-- **Gartner Forecast**: By 2028, agentic AI will enable **15% of day-to-day work decisions to be made autonomously**, fundamentally changing sales workflows
-- **Deloitte Prediction**: **25% of generative AI users will pilot agentic AI in 2025**—a critical tipping point
-- **Major Vendor Platforms Announced**:
-  - **Salesforce**: Agentforce 360 (autonomous agents for sales, service, marketing)
-  - **Google**: Gemini Enterprise with multi-agent orchestration
-  - **IBM**: watsonx Orchestrate (500+ tool integrations)
-  - **Microsoft**: Agent Framework for autonomous task execution
-  - **ServiceNow**: AI Experience (AIx) platform
-  - **Adobe**: Experience Platform Agent Orchestrator
-
-**Industry Expert Quote**:
-
-> "Ensuring these autonomous systems operate safely, transparently and responsibly will require governance frameworks and testing. Most agentic AI projects remain early-stage experiments or proofs of concept, fueled primarily by hype and often misapplied."
+**What**: Industry analysts forecast **33% of enterprise software will include agentic AI by 2028**, representing a 33× increase from 2024's  "Ensuring these autonomous systems operate safely, transparently and responsibly will require governance frameworks and testing. Most agentic AI projects remain early-stage experiments or proofs of concept, fueled primarily by hype and often misapplied."
 >
 > — ComputerWorld Industry Analysis, October 2025
 
@@ -242,8 +225,7 @@ Platforms to watch:
 - **Startup challengers**: Expect 5-10 new SMB agentic AI vendors in 2026
 
 **Red flags to avoid**:
-- Platforms requiring >4 weeks setup for teams <30 reps (too complex)
-- Pricing >$150/user/month for SMBs (enterprise pricing disguised as SMB solution)
+- Platforms requiring >4 weeks setup for teams $150/user/month for SMBs (enterprise pricing disguised as SMB solution)
 - No rollback mechanism (what if autonomy causes errors?)
 
 **6. Build AI Literacy in Your Team**:
@@ -332,25 +314,10 @@ Unlike copilot AI (which shows reasoning), some agentic systems don't explain **
 
 ## Frequently Asked Questions
 
-<div itemScope itemType="https://schema.org/FAQPage">
-
-  <div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-    <h3 itemProp="name">What's the difference between AI copilot and agentic AI?</h3>
-    <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-      <div itemProp="text">
-        **AI Copilot** (current state): AI suggests actions, human approves, then AI executes. Example: AI recommends sending follow-up email to 3 leads → you review → you click "send."
-
-        **Agentic AI** (emerging): AI observes context, decides autonomously, executes, and learns from outcome. Example: AI detects lead visited pricing page, autonomously sends personalized follow-up, schedules meeting if reply is positive, updates CRM, and improves future emails based on response rate.
-
-        **Key difference**: Approval loop. Copilot requires human in the loop; agentic operates independently within defined guardrails.
-      </div>
-    </div>
-  </div>
-
-  <div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-    <h3 itemProp="name">Is agentic AI safe for customer-facing tasks?</h3>
-    <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-      <div itemProp="text">
+  
+    Is agentic AI safe for customer-facing tasks?
+    
+      
         **It depends on guardrails and testing.** Enterprise platforms (Salesforce Agentforce, IBM watsonx) require extensive governance setup—defining what AI can/cannot do autonomously. For SMBs, this overhead is impractical.
 
         **Best practices for SMB teams:**
@@ -360,14 +327,14 @@ Unlike copilot AI (which shows reasoning), some agentic systems don't explain **
         - Monitor **error rate**: If AI mistakes occur >2% of time, dial back autonomy
 
         **Timeline**: Most SMB-focused agentic platforms (launching 2026) will have pre-configured safety rules, making them safer for customer-facing use than DIY enterprise setups.
-      </div>
-    </div>
-  </div>
+      
+    
+  
 
-  <div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-    <h3 itemProp="name">What's the real cost for a 15-person sales team in 2026?</h3>
-    <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-      <div itemProp="text">
+  
+    What's the real cost for a 15-person sales team in 2026?
+    
+      
         **Enterprise agentic AI** (Salesforce Agentforce tier, 2026 estimated pricing):
         - Platform: $200/user/month × 15 = $3,000/month
         - Governance setup: $15,000 one-time (consultant fees)
@@ -380,15 +347,14 @@ Unlike copilot AI (which shows reasoning), some agentic systems don't explain **
         - Ongoing: $0 (no dedicated governance team needed)
         - **Total Year 1**: $21,600 | **Annual (Year 2+)**: $21,600
 
-        **Key difference**: Enterprise platforms assume you have IT/governance resources; SMB platforms include guardrails and simplicity by design. **For teams <50 reps, SMB-focused platforms will deliver 80% of value at 25% of cost.**
-      </div>
-    </div>
-  </div>
+        **Key difference**: Enterprise platforms assume you have IT/governance resources; SMB platforms include guardrails and simplicity by design. **For teams 
+    
+  
 
-  <div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-    <h3 itemProp="name">Should we wait for agentic AI or adopt AI copilot tools now?</h3>
-    <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-      <div itemProp="text">
+  
+    Should we wait for agentic AI or adopt AI copilot tools now?
+    
+      
         **Adopt AI copilot tools NOW (2025), plan for agentic transition in 2026.**
 
         **Why not wait:**
@@ -405,14 +371,14 @@ Unlike copilot AI (which shows reasoning), some agentic systems don't explain **
         - **2025**: Adopt AI copilot (HubSpot AI, Optifai, Salesforce Einstein)
         - **2026 Q2**: Evaluate SMB agentic platforms (join pilot programs)
         - **2026 Q4**: Adopt proven agentic solution with 6+ months of validation
-      </div>
-    </div>
-  </div>
+      
+    
+  
 
-  <div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-    <h3 itemProp="name">What if my team is resistant to AI making autonomous decisions?</h3>
-    <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-      <div itemProp="text">
+  
+    What if my team is resistant to AI making autonomous decisions?
+    
+      
         **Resistance is normal and healthy**—autonomous AI requires deep trust. Successful adoption uses a **gradual autonomy ladder:**
 
         **Month 1-2: Observation Mode**
@@ -436,11 +402,9 @@ Unlike copilot AI (which shows reasoning), some agentic systems don't explain **
         - Goal: Maximize time on high-value activities
 
         **Key insight**: Teams that force full autonomy in Month 1 see 60% failure rate. Teams using gradual ladder see 85% success rate. **Culture change takes 6-9 months, not 2 weeks.**
-      </div>
-    </div>
-  </div>
-
-</div>
+      
+    
+  
 
 ---
 

@@ -173,56 +173,7 @@ Skills shifts the AI assistant market in three ways:
 4. **Calculate actual ROI** (30 minutes)
    - Track time saved for 2 weeks (before/after using the skill)
    - Calculate: (Hours saved × Average hourly cost × 52 weeks) ÷ (Skill creation time × Average hourly cost)
-   - **Decision criteria**: If ROI > 5x, build 2-3 more skills; if ROI < 3x, stick with free skills or wait for better tools
-
-### Long-term (Next 3-6 Months)
-
-5. **Watch for OpenAI and Microsoft response** (Timeline: Dec 2025 - Mar 2026)
-   - OpenAI historically counters major Anthropic features within 3-6 months
-   - If they release a competing feature with better pricing or easier setup, be ready to switch (Skills are portable as text files)
-   - **What to watch for**: OpenAI Dev Day (November 2025), Microsoft Ignite (November 2025)
-
-:::message
-**Most Important Action**: Test the free Excel/PowerPoint generator skills THIS WEEK with a real task. If you can't see a 2-3 hour time saving in 30 minutes of testing, Skills probably isn't mature enough for your use case yet—revisit in 3 months.
-
-:::
-
----
-
-## Expert Take: Our Analysis
-
-### Why This Announcement Matters Beyond the Hype
-
-Most AI feature launches promise productivity gains but deliver marginal improvements. Skills feels different for three reasons:
-
-#### 1. The economics actually work for SMBs**
-
-We've analyzed dozens of AI sales tools over the past 18 months. Most require either:
-- Enterprise budgets ($50K+ annual contracts) with 6-12 month implementations, or
-- Cheap SaaS tools ($30-99/month) that save 30 minutes/week—not worth the mental overhead
-
-Skills threads the needle: it's included in a tool many SMBs already pay for (Claude Pro at $58/month), and Rakuten's 8x productivity claim is specific enough to be credible. A finance workflow going from "1 day" to "1 hour" isn't vague—that's 7 hours saved on a recurring task.
-
-For context, the typical SMB sales ops manager spends:
-- 6 hours/week on reporting (pipeline reviews, forecasts, board decks)
-- 4 hours/week on CRM hygiene (deduping, field audits, data imports)
-- 5 hours/week on sales enablement (updating battlecards, pricing sheets, ROI calculators)
-
-If Skills can cut even ONE of those tasks by 50%, you're saving 2-3 hours weekly = **$10K-15K annually per ops person**. That's a 3-5x ROI on a $3K/year Claude Teams seat.
-
-#### 2. Progressive disclosure solves the real problem**
-
-The AI industry has obsessed over context windows (how much text an AI can "remember" at once). Claude Sonnet 4 supports 200,000 tokens (~150,000 words), GPT-4 Turbo supports 128,000 tokens. But here's the dirty secret: **longer context windows make AI slower and dumber**.
-
-When you dump 50 pages of company docs into an AI prompt, it drowns in irrelevant details. Skills' "progressive disclosure" is clever: Claude only loads the specific paragraphs it needs for the current task, keeping responses fast and focused.
-
-This architecture mirrors how expert humans work. A seasoned sales engineer doesn't memorize the entire product catalog—they know where to find the AWS integration guide when a prospect asks about AWS. Skills gives Claude the same capability.
-
-#### 3. Composability unlocks exponential value**
-
-Most AI tools are linear: one input → one output. Skills are multiplicative. Once you build 3-5 core skills (proposal template, pricing calculator, brand guidelines, CRM standards, competitive intel), they auto-combine for complex requests:
-
-> "Claude, create a 10-page proposal for Acme Corp (Fortune 500 manufacturing), include ROI calculator showing 3-year TCO vs. Salesforce, format in our brand template, and flag any claims that need legal review."
+   - **Decision criteria**: If ROI > 5x, build 2-3 more skills; if ROI  "Claude, create a 10-page proposal for Acme Corp (Fortune 500 manufacturing), include ROI calculator showing 3-year TCO vs. Salesforce, format in our brand template, and flag any claims that need legal review."
 
 Claude autonomously loads 4 skills, coordinates between them, and delivers a draft in 5 minutes. Three months ago, that task required a human to manually juggle 4 different tools and documents for 2-3 hours.
 
@@ -281,54 +232,41 @@ For teams without technical resources or clear high-pain workflows, wait 3-6 mon
 
 ## Frequently Asked Questions
 
-<div itemScope itemType="https://schema.org/FAQPage">
-
-  <div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-    <h3 itemProp="name">Is Skills worth it for a sales team of 10-15 reps, or is it overkill?</h3>
-    <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-      <div itemProp="text">
-        Skills is MOST valuable for 10-30 rep teams, not overkill. Here's why: at 10-15 reps, you're large enough that manual tasks (proposal writing, reporting, CRM cleanup) consume 15-25 hours/week across the team, but too small to afford dedicated sales ops or engineering resources. Skills lets your sales manager or power user build automations that would normally require hiring a $80K/year ops person. If building one skill saves your team 10 hours/week (conservative estimate), that's $20K-30K in annual value for zero additional cost beyond your existing Claude subscription. The "overkill" threshold is below 5 reps—at that scale, manual work is still manageable.
-      </div>
-    </div>
-  </div>
-
-  <div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-    <h3 itemProp="name">How long does it really take to build a production-ready skill?</h3>
-    <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-      <div itemProp="text">
+  
+    How long does it really take to build a production-ready skill?
+    
+      
         For non-technical users using the "skill-creator" assistant: 30-60 minutes for a simple skill (e.g., "format meeting notes"), 2-4 hours for a complex skill (e.g., "generate proposals with dynamic pricing"). For developers writing skills from scratch: 1-2 hours for simple skills, 4-8 hours for complex multi-file skills with custom code. However, reaching "production-ready" (tested, documented, consistent results) typically requires 2-3 iterations, adding another 2-4 hours. Realistic total: 4-8 hours for simple skills, 8-16 hours for complex ones. Rakuten's 8x productivity gain on finance workflows likely required a 40-80 hour investment, but that skill now saves them 7 hours every time they run the workflow—ROI pays back in 6-12 runs.
-      </div>
-    </div>
-  </div>
+      
+    
+  
 
-  <div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-    <h3 itemProp="name">Can Skills integrate with our CRM (Salesforce, HubSpot, Pipedrive)?</h3>
-    <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-      <div itemProp="text">
+  
+    Can Skills integrate with our CRM (Salesforce, HubSpot, Pipedrive)?
+    
+      
         Yes, but with limitations. Skills can read/write files from cloud storage (Box is officially supported, Dropbox/Google Drive via API). If your CRM data is exported to CSV/Excel files in Box, Skills can process it. For real-time CRM integration, you'll need to use Claude's API with skills and write custom code to call Salesforce/HubSpot APIs. Anthropic hasn't announced native CRM connectors yet (expected Q1-Q2 2026 based on competitive pressure from Microsoft Copilot's CRM integrations). For now, the most practical approach for non-developers: (1) Export CRM data to CSV weekly, (2) Store in Box, (3) Build a skill to analyze/update the CSV, (4) Re-import to CRM. It's not seamless, but it works for batch workflows like data cleanup and reporting.
-      </div>
-    </div>
-  </div>
+      
+    
+  
 
-  <div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-    <h3 itemProp="name">Should we wait for OpenAI or Microsoft to release a competing feature before adopting?</h3>
-    <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-      <div itemProp="text">
+  
+    Should we wait for OpenAI or Microsoft to release a competing feature before adopting?
+    
+      
         If you're already a Claude user, adopt Skills now—there's zero switching cost and minimal risk (skills are portable text files). If you're NOT currently using Claude and are choosing between AI platforms, waiting 60-90 days is reasonable. OpenAI historically counters Anthropic features within 3-6 months (e.g., Custom GPTs launched 2 weeks after Claude's "Projects" feature). OpenAI Dev Day is November 6, 2025; Microsoft Ignite is November 19-21, 2025—both likely to announce AI agent features. However, first-mover advantage matters for skills: teams building domain expertise libraries NOW will have 6-12 months of productivity gains before competitors catch up. Our take: start testing with free skills this month, commit to building 1-2 production skills only if you see 5x+ ROI in early tests.
-      </div>
-    </div>
-  </div>
+      
+    
+  
 
-  <div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-    <h3 itemProp="name">What if our team isn't technical—can non-coders really build useful skills?</h3>
-    <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-      <div itemProp="text">
+  
+    What if our team isn't technical—can non-coders really build useful skills?
+    
+      
         Yes, with caveats. Anthropic's "skill-creator" skill is designed for non-coders—it asks questions like "What task are you automating?" and "What format should the output be?" then generates the skill structure for you. Non-technical users can successfully build skills for document formatting, data extraction from spreadsheets, and content generation (proposals, emails, reports). However, skills involving complex logic, API integrations, or custom calculations will still require a developer (or a power user comfortable with basic scripting). Practical threshold: if you can create an Excel formula or a Zapier automation, you can likely build 70-80% of useful sales skills. For the remaining 20% (e.g., "sync Salesforce to HubSpot and flag discrepancies"), budget 4-8 hours of developer time or hire a freelancer ($500-1,500 per complex skill).
-      </div>
-    </div>
-  </div>
-
-</div>
+      
+    
+  
 
 ---
 

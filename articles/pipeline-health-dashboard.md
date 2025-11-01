@@ -1,5 +1,5 @@
 ---
-title: "Pipeline Health Benchmark 2025: Real-time Dashboard & Industry Standards"
+title: "Pipeline Health Benchmark 2025: Dashboard & Standards"
 emoji: "📈"
 type: "idea"
 topics: ["pipeline-management", "sales-benchmarks", "industry-report", "data-analysis", "sales-metrics"]

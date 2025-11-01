@@ -362,129 +362,50 @@ Pipedrive is a **visual sales CRM built by salespeople, for salespeople**. Used 
 
 | Monthly Budget (20-person team) | Recommendation |
 |----------------------------------|----------------|
-| **< $1,000/month** | **Pipedrive Essential** ($280/month) |
-| **$1,000-2,000/month** | **Pipedrive Professional** ($980/month) |
-| **$2,000-3,000/month** | **Salesforce Starter** or **Pipedrive Enterprise** |
-| **$3,000+/month** | **Salesforce Pro Suite** ($2,000/month + implementation) |
-
----
-
-### By Technical Resources
-
-| IT/Ops Capacity | Recommendation |
-|-----------------|----------------|
-| **No dedicated IT** | **Pipedrive** (self-service setup in 2 weeks) |
-| **1 ops person** | **Pipedrive** (they can manage without training) |
-| **IT team or budget for consultants** | **Salesforce** (unlock full power) |
-
----
-
-## Migration Guide: Switching Between Platforms
-
-### Pipedrive → Salesforce (Scaling Up)
-
-**When to Migrate**:
-- Team grows beyond 100 reps
-- Need multi-department visibility (sales + marketing + service)
-- Reporting requirements exceed Pipedrive's capabilities
-
-**Migration Timeline**: **3-6 months**
-
-**Steps**:
-1. **Data Export** (Week 1): Export deals, contacts, companies from Pipedrive (CSV)
-2. **Salesforce Setup** (Weeks 2-8): Configure objects, fields, workflows (hire consultant)
-3. **Data Mapping** (Weeks 9-12): Map Pipedrive fields to Salesforce objects
-4. **Data Import** (Week 13): Use Data Loader to import records
-5. **Training** (Weeks 14-16): Train team on Salesforce (20+ hours per rep)
-6. **Go-Live** (Week 17+): Parallel run for 2 weeks, then full switch
-
-**Cost**: $15,000-40,000 (consultant fees + data cleanup)
-
----
-
-### Salesforce → Pipedrive (Simplification)
-
-**When to Migrate**:
-- Salesforce is overkill for your sales process
-- Team struggles with complexity, low adoption
-- Want to cut costs (Pipedrive is 70% cheaper)
-
-**Migration Timeline**: **4-8 weeks**
-
-**Steps**:
-1. **Audit Salesforce** (Week 1): Identify must-have fields and workflows
-2. **Pipedrive Setup** (Week 2): Create pipelines, custom fields, import lists
-3. **Data Export from Salesforce** (Week 3): Use Data Loader to export contacts, accounts, opportunities
-4. **Data Cleanup** (Week 4): Remove duplicates, standardize formats
-5. **Data Import to Pipedrive** (Week 5): Use Pipedrive's CSV import tool
-6. **Training** (Week 6): Train team on Pipedrive (2-3 hours per rep)
-7. **Go-Live** (Week 7-8): Parallel run for 1 week, then full switch
-
-**Cost**: $2,000-8,000 (data cleanup + minor consulting)
-
-**Warning**: You'll lose Salesforce-specific features (custom objects, complex workflows). Ensure Pipedrive can handle your simplified process before migrating.
-
----
-
-## Frequently Asked Questions
-
-<div itemScope itemType="https://schema.org/FAQPage">
-
-  <div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-    <h3 itemProp="name">Which is cheaper: Salesforce or Pipedrive?</h3>
-    <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-      <div itemProp="text">
-        **Pipedrive is significantly cheaper.** For a 20-person team, Pipedrive Professional costs $11,760/year vs Salesforce Pro Suite at $34,000+/year (including implementation). Pipedrive has no hidden costs; Salesforce requires implementation fees ($10K-30K) and often a dedicated admin ($80K-120K/year). For SMBs under 50 users, Pipedrive costs 60-70% less.
-      </div>
-    </div>
-  </div>
-
-  <div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-    <h3 itemProp="name">Which is easier to use: Salesforce or Pipedrive?</h3>
-    <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-      <div itemProp="text">
+| **
+    Which is easier to use: Salesforce or Pipedrive?
+    
+      
         **Pipedrive is much easier to use.** G2 users rate Pipedrive 9.1/10 for ease of use vs Salesforce's 7.8/10. Pipedrive setup takes 2 weeks (self-service) vs Salesforce's 3-6 months (requires consultants). Sales reps are productive in Pipedrive within 1 week, while Salesforce requires 20+ hours of training. 85% of Pipedrive users describe it as "intuitive," compared to 62% for Salesforce.
-      </div>
-    </div>
-  </div>
+      
+    
+  
 
-  <div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-    <h3 itemProp="name">Can I migrate from Pipedrive to Salesforce (or vice versa)?</h3>
-    <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-      <div itemProp="text">
+  
+    Can I migrate from Pipedrive to Salesforce (or vice versa)?
+    
+      
         **Yes, but expect 3-6 months for Pipedrive → Salesforce, or 4-8 weeks for Salesforce → Pipedrive.** Both platforms allow CSV data export/import. Migrating to Salesforce is more complex (requires field mapping, consultant help, training) and costs $15K-40K. Migrating to Pipedrive is simpler but you'll lose Salesforce-specific customizations (custom objects, complex workflows). Most companies migrate when scaling up (to Salesforce) or simplifying (to Pipedrive to cut costs).
-      </div>
-    </div>
-  </div>
+      
+    
+  
 
-  <div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-    <h3 itemProp="name">Which has better integrations?</h3>
-    <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-      <div itemProp="text">
+  
+    Which has better integrations?
+    
+      
         **Salesforce has more integrations (2,000+ via AppExchange) but Pipedrive covers the essentials (400+) with easier setup.** Salesforce integrates with virtually any tool, including niche industry software, but often requires developer help. Pipedrive offers 1-click integrations with Gmail, Outlook, Slack, Zoom, Zapier, and 400+ popular tools. For most SMBs, Pipedrive's integrations are sufficient and work out-of-the-box.
-      </div>
-    </div>
-  </div>
+      
+    
+  
 
-  <div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-    <h3 itemProp="name">Is Salesforce worth the extra cost?</h3>
-    <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-      <div itemProp="text">
+  
+    Is Salesforce worth the extra cost?
+    
+      
         **Only if you need enterprise features.** Salesforce is worth it if you: (1) have 50+ users, (2) need multi-department integration (sales + marketing + service), (3) require complex customization (custom objects, multi-currency), or (4) have IT resources to manage it. For SMBs under 50 people with standard sales processes, Salesforce is overkill—Pipedrive delivers 90% of the value at 30% of the cost.
-      </div>
-    </div>
-  </div>
+      
+    
+  
 
-  <div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-    <h3 itemProp="name">Which is better for small teams (under 20 people)?</h3>
-    <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-      <div itemProp="text">
+  
+    Which is better for small teams (under 20 people)?
+    
+      
         **Pipedrive is decisively better for small teams.** It costs 60-70% less, sets up in 2 weeks (vs 3-6 months for Salesforce), requires no training, and offers a visual pipeline that drives adoption. Salesforce's Starter Suite has a 10-user limit, forcing you to upgrade to $100/user/month Pro Suite. For 5-20 person teams, Pipedrive Professional ($49/user/month) provides all the features you need at half the cost with zero implementation fees.
-      </div>
-    </div>
-  </div>
-
-</div>
+      
+    
+  
 
 ---
 

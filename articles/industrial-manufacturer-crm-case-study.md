@@ -1,5 +1,5 @@
 ---
-title: "How a 15-Person Industrial Manufacturer Grew Revenue 20% and Cut Sales Cycle 46% in 5 Months"
+title: "Manufacturer Grew Revenue 20%, Cut Sales Cycle 46% (5mo)"
 emoji: "📊"
 type: "idea"
 topics: ["case-study", "industrial-manufacturing", "crm-migration", "sales-automation", "lead-scoring"]

@@ -332,25 +332,10 @@ Agentic AIは履歴データから学習します。CRMデータが乱雑（重�
 
 ## よくある質問
 
-<div itemScope itemType="https://schema.org/FAQPage">
-
-  <div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-    <h3 itemProp="name">AIコパイロットとAgentic AIの違いは何ですか？</h3>
-    <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-      <div itemProp="text">
-        **AIコパイロット**（現在の状態）：AIがアクションを提案し、人間が承認し、その後AIが実行します。例：AIが3つのリードにフォローアップメールを送信することを推奨 → あなたがレビュー → あなたが「送信」をクリック。
-
-        **Agentic AI**（新興）：AIが文脈を観察し、自律的に決定し、実行し、結果から学習します。例：AIが価格ページを訪問したリードを検出し、自律的にパーソナライズされたフォローアップを送信し、返信が肯定的であればミーティングをスケジュールし、CRMを更新し、応答率に基づいて将来のメールを改善します。
-
-        **重要な違い**：承認ループ。コパイロットは人間をループに必要とします；Agentic AIは定義されたガードレール内で独立して動作します。
-      </div>
-    </div>
-  </div>
-
-  <div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-    <h3 itemProp="name">Agentic AIは顧客対応タスクに安全ですか？</h3>
-    <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-      <div itemProp="text">
+  
+    Agentic AIは顧客対応タスクに安全ですか？
+    
+      
         **ガードレールとテストによります。** エンタープライズプラットフォーム（Salesforce Agentforce、IBM watsonx）は、AIが自律的にできること/できないことを定義する広範なガバナンスセットアップが必要です。中小企業にとって、このオーバーヘッドは非現実的です。
 
         **中小企業チームのベストプラクティス：**
@@ -360,14 +345,14 @@ Agentic AIは履歴データから学習します。CRMデータが乱雑（重�
         - **エラー率**を監視：AIのミスが2%を超える場合、自律性を下げる
 
         **タイムライン**：ほとんどの中小企業向けAgentic AIプラットフォーム（2026年発売）には事前設定された安全ルールがあり、DIYエンタープライズセットアップよりも顧客対応使用に安全です。
-      </div>
-    </div>
-  </div>
+      
+    
+  
 
-  <div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-    <h3 itemProp="name">2026年の15名営業チームの実際のコストは？</h3>
-    <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-      <div itemProp="text">
+  
+    2026年の15名営業チームの実際のコストは？
+    
+      
         **エンタープライズAgentic AI**（Salesforce Agentforceティア、2026年推定価格）：
         - プラットフォーム：$200/ユーザー/月 × 15 = $3,000/月
         - ガバナンスセットアップ：$15,000（1回限りのコンサルタント費用）
@@ -381,14 +366,14 @@ Agentic AIは履歴データから学習します。CRMデータが乱雑（重�
         - **初年度合計**：$21,600 | **年間（2年目以降）**：$21,600
 
         **重要な違い**：エンタープライズプラットフォームはIT/ガバナンスリソースを持っていることを前提としています；中小企業向けプラットフォームは設計によってガードレールとシンプルさを含みます。**50名未満のチームにとって、中小企業向けプラットフォームはコストの25%で価値の80%を提供します。**
-      </div>
-    </div>
-  </div>
+      
+    
+  
 
-  <div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-    <h3 itemProp="name">Agentic AIを待つべきか、今AIコパイロットツールを導入すべきか？</h3>
-    <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-      <div itemProp="text">
+  
+    Agentic AIを待つべきか、今AIコパイロットツールを導入すべきか？
+    
+      
         **今（2025年）AIコパイロットツールを導入し、2026年にAgentic AI移行を計画してください。**
 
         **待つべきでない理由：**
@@ -405,14 +390,14 @@ Agentic AIは履歴データから学習します。CRMデータが乱雑（重�
         - **2025年**：AIコパイロットを導入（HubSpot AI、Optifai、Salesforce Einstein）
         - **2026年Q2**：中小企業向けAgentic AIプラットフォームを評価（パイロットプログラムに参加）
         - **2026年Q4**：6ヶ月以上の検証を経た実証済みのAgentic AIソリューションを導入
-      </div>
-    </div>
-  </div>
+      
+    
+  
 
-  <div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-    <h3 itemProp="name">チームがAIの自律的な意思決定に抵抗する場合はどうすればよいですか？</h3>
-    <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-      <div itemProp="text">
+  
+    チームがAIの自律的な意思決定に抵抗する場合はどうすればよいですか？
+    
+      
         **抵抗は正常で健全です**—自律AIは深い信頼を必要とします。成功する導入は**段階的な自律性のはしご**を使用します：
 
         **1〜2ヶ月目：観察モード**
@@ -436,11 +421,9 @@ Agentic AIは履歴データから学習します。CRMデータが乱雑（重�
         - 目標：高価値活動に時間を最大化
 
         **重要な洞察**：1ヶ月目に完全な自律性を強制するチームは60%の失敗率を示します。段階的なはしごを使用するチームは85%の成功率を示します。**文化的変化は2週間ではなく6〜9ヶ月かかります。**
-      </div>
-    </div>
-  </div>
-
-</div>
+      
+    
+  
 
 ---
 

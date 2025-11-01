@@ -1,5 +1,5 @@
 ---
-title: "From Missing Quota for 2 Years to Building a Product: A SaaS Sales Failure Story"
+title: "From Missing Quota to Building a Product: SaaS Failure Story"
 emoji: "🔬"
 type: "tech"
 topics: ["ai-sales", "product-development", "revenue-velocity", "startup", "learning-from-failure"]

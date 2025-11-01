@@ -313,75 +313,7 @@ Verify that your scoring model actually predicts conversions accurately before r
 1. Apply your scoring model to past deals (last 6-12 months)
 2. Calculate accuracy:
    - How many leads scored 80+ actually converted? (Target: 60%+)
-   - How many leads scored <30 failed to convert? (Target: 80%+)
-3. If accuracy is below target, adjust your point values
-
-:::message
-**Quick Accuracy Test**: Sort your historical deals by score (high to low). If your top 20% of scores represent 60-80% of your won deals, your model is working well.
-
-:::
-
-### Common Issues and Fixes
-
-| Problem | Cause | Solution |
-|---------|-------|----------|
-| All leads scoring 80-100 | Point values too generous | Reduce points per signal by 30-50% |
-| All leads scoring 0-30 | Point values too conservative | Increase points for high-intent actions |
-| Scores don't match reality | Wrong signals prioritized | Re-analyze historical data; remove weak signals |
-| Scores not updating | Automation not triggered | Check workflow settings; verify field mappings |
-
-**Expected Result**: 80%+ accuracy in predicting which leads convert, validated against historical data.
-
----
-
-## Step 4: Train Your Sales Team (Week 2, Day 3-4)
-
-**Time Required**: 2-3 hours
-**Difficulty**: Easy
-
-### What You'll Do
-
-Get your sales team to trust and use lead scores in their daily workflow.
-
-### Training Agenda (1-Hour Team Meeting)
-
-**Part 1: The Why (15 minutes)**
-- Show the problem: "Last month, we spent 60% of our time on leads that didn't close"
-- Explain the solution: "Lead scoring prioritizes the 20% that actually convert"
-- Share expected outcome: "You'll spend more time with buyers, less with tire-kickers"
-
-**Part 2: How It Works (20 minutes)**
-- Walk through the scoring criteria (show the table from Step 1)
-- Demonstrate live in CRM: Create a sample lead, show score calculation
-- Explain the 5 tiers (Hot/Warm/Medium/Cool/Cold)
-
-**Part 3: New Workflow (15 minutes)**
-- **Daily routine**:
-  - 9:00 AM: Check "Hot" leads (score 90+), respond within 2 hours
-  - 11:00 AM: Follow up "Warm" leads (70-89) this week
-  - Afternoon: Nurture campaigns for Medium leads (40-69)
-- **Weekly routine**:
-  - Monday: Review lead distribution, flag any high scores slipping through
-  - Friday: Analyze conversion rates by tier
-
-**Part 4: Q&A and Objections (10 minutes)**
-
-**Common objections and responses**:
-
-*"What if the score is wrong?"*
-→ "Trust your gut. If a lead seems promising despite a low score, pursue it—and let me know so we can adjust the model. This is a tool, not a rule."
-
-*"I have relationships with some low-scoring leads"*
-→ "Keep those relationships! Scores help you prioritize new inbound leads, not replace your judgment on existing relationships."
-
-*"This seems like more work"*
-→ "Actually less. You'll waste less time qualifying leads manually—the system does that for you."
-
-### Post-Training
-
-**Provide Reference Materials**:
-- One-page cheat sheet: "Lead Score Quick Reference"
-- CRM dashboard shortcut: "My Hot Leads" view (filter: score >80)
+   - How many leads scored 80)
 - Slack channel: #lead-scoring-questions for real-time help
 
 **Set Expectations**:
@@ -419,183 +351,42 @@ Track these 4 metrics every week:
 **Target benchmarks** (after 30 days):
 - Hot lead conversion rate: 60-80%
 - Warm lead conversion rate: 30-50%
-- Cold lead conversion rate: <10%
-- False positive rate: <25%
-
-### Monthly Optimization Routine
-
-**Review Signal Performance**:
-1. Export deals closed in past 30 days
-2. For each signal, calculate:
-   - How many closed deals had this signal? (e.g., 85% visited pricing page)
-   - What's the win rate for leads with this signal?
-3. Adjust point values:
-   - If "Visited Pricing Page" correlates with 90% of wins → increase points from +30 to +40
-   - If "Downloaded Whitepaper" correlates with only 15% of wins → decrease from +20 to +10
-
-**A/B Test New Signals**:
-- Try adding 1-2 new signals per month
-- Example: "Job title contains 'Head of'" → test +15 points
-- After 30 days, measure impact on conversion rate
-- Keep signals that improve accuracy, remove those that don't
-
-**Identify Score Gaps**:
-- **False Positives**: Leads scored >80 but didn't convert
+- Cold lead conversion rate: 80 but didn't convert
   - Common cause: High score based on demographics but no behavioral engagement
   - Fix: Require at least 2 behavioral signals to reach "Hot" tier
-- **False Negatives**: Leads scored <40 but converted anyway
-  - Common cause: Referral or word-of-mouth (not tracked in CRM)
-  - Fix: Add manual override option for reps
-
-:::alert
-**Avoid Over-Optimization**: Don't adjust scores more than once per month. Models need time to generate statistically significant results. Changing criteria weekly creates instability.
-
-:::
-
-### Quarterly Deep Dive (Every 90 Days)
-
-**Rebuild Model from Scratch**:
-- Re-run Step 1 analysis with latest 12 months of data
-- Your ideal customer profile evolves—update your scoring criteria accordingly
-- Example: If you expand from SMB to mid-market, "51-200 employees" should score higher
-
-**Expected Result**: Maintained or improved accuracy over time, with conversion rates staying within target ranges.
-
----
-
-## Tool Comparison: Lead Scoring Capabilities
-
-Not all CRMs handle lead scoring equally. Here's how the major platforms compare:
-
-### When to Choose Each Platform
-
-**Choose Salesforce if**:
-- You're an enterprise with 100+ sales reps
-- You have dedicated Salesforce admin resources
-- You need deep customization and complex automation
-- Budget is not a primary constraint
-
-**Choose HubSpot if**:
-- You're a mid-market company (25-100 reps)
-- You want integrated marketing + sales automation
-- You prefer user-friendly UI over advanced customization
-- You already use HubSpot Marketing Hub
-
-**Choose Optifai if**:
-- You're an SMB team (5-50 reps)
-- You want lead scoring live in 30 minutes, not 30 hours
-- You lack technical resources for CRM admin
-- You prioritize time-savings and automation over deep customization
-
-:::message
-**Cost Comparison for 15-Person Team**:
-- Salesforce: $1,875/month (Sales Cloud) + $1,250/month (Marketing Cloud for behavioral tracking) = **$3,125/month**
-- HubSpot: $800/month (Professional) or $1,800/month (Enterprise for predictive scoring)
-- Optifai: $870/month (includes AI scoring, no add-ons needed)
-
-:::
-
----
-
-## Real-World Results: Case Studies
-
-### Case Study 1: TechFlow Inc. (SaaS, 12 Reps)
-
-**Before Lead Scoring**:
-- Close rate: 18%
-- Average response time to inbound leads: 6 hours
-- Reps spent 40% of time on unqualified leads
-
-**Implementation** (Optifai, 2-week rollout):
-- Week 1: Configured AI scoring based on 18 months of historical data
-- Week 2: Trained team, ran pilot with 3 reps
-
-**After 90 Days**:
-- Close rate: **28%** (+10 percentage points)
-- Response time to Hot leads: **< 1 hour** (9× faster)
-- Reps now spend 75% of time on qualified leads
-
-**ROI Calculation**:
-- Additional deals closed: +12/month (from 22 to 34)
-- Average deal size: $8,500
-- Additional monthly revenue: **$102,000**
-- Optifai cost: $870/month
-- **ROI: 11,624%** (payback in < 1 day)
-
-Before lead scoring, my reps were drowning in 200+ inbound leads per week and couldn't tell which ones to prioritize. We'd spend hours qualifying leads manually, only to find they had a $500 budget for an $8K product. Now, Optifai's AI scores every lead the moment it comes in. My team focuses on the top 20%, and our close rate jumped from 18% to 28%. It's like hiring 3 extra reps without the cost.
-
----
-
-### Case Study 2: Manufacturing Corp (50 Reps, Complex Sales Cycle)
-
-**Challenge**: 9-12 month sales cycles meant early-stage signals were hard to identify. Reps pursued all leads equally, causing pipeline bloat.
-
-**Implementation** (Salesforce + custom rules, 6-week rollout):
-- Weeks 1-2: Analyzed 3 years of historical deals to identify early signals
-- Weeks 3-4: Built custom scoring model in Salesforce Process Builder
-- Weeks 5-6: Pilot with 10 reps, refined based on feedback
-
-**Key Insight**: For long sales cycles, *engagement recency* matters more than total engagement.
-- Weighted recent actions (last 14 days) 3× higher than older actions
-- Example: Lead visited pricing page 6 months ago = +10 points; last week = +30 points
-
-**Results After 6 Months**:
-- Reduced pipeline bloat by 40% (disqualified low-score leads faster)
-- Increased forecast accuracy from 65% to 88%
-- Sales cycle shortened by 3 weeks (from 11 to 8 months average)
-
----
-
-## Frequently Asked Questions
-
-<div itemScope itemType="https://schema.org/FAQPage">
-
-  <div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-    <h3 itemProp="name">How long does it take to see ROI from lead scoring?</h3>
-    <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-      <div itemProp="text">
-        Most teams see measurable results within 30-60 days. You'll notice immediate time savings (week 1-2) as reps stop chasing unqualified leads. Revenue impact typically appears in month 2-3 as reps close more deals with their reclaimed time. In our analysis of 150 companies, the average payback period was 23 days for the implementation effort, with ongoing ROI of 800-2,000% annually from increased productivity.
-      </div>
-    </div>
-  </div>
-
-  <div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-    <h3 itemProp="name">What if we don't have 12 months of historical data?</h3>
-    <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-      <div itemProp="text">
+- **False Negatives**: Leads scored 
+    What if we don't have 12 months of historical data?
+    
+      
         You can still implement lead scoring using industry benchmarks. Start with these standard high-value signals: (1) Requested demo = +40 points, (2) Visited pricing page 2+ times = +30, (3) Decision-maker title = +25, (4) Company size 10-200 employees = +15, (5) Target industry match = +20. Run this baseline model for 30-60 days, then refine based on your actual conversion data. Even a simple model beats no prioritization.
-      </div>
-    </div>
-  </div>
+      
+    
+  
 
-  <div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-    <h3 itemProp="name">Should we disqualify all low-scoring leads?</h3>
-    <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-      <div itemProp="text">
-        No—use scores for prioritization, not elimination. Low scores mean "lower priority," not "no potential." Here's a recommended approach: (1) Hot/Warm leads (70+): Immediate personal outreach, (2) Medium leads (40-69): Automated nurture campaigns until they engage more (score rises), (3) Cool/Cold leads (<40): Long-term nurture (quarterly touchpoints). Never fully disqualify unless they explicitly opt out. A lead scored 25 today might score 85 in 3 months after more research.
-      </div>
-    </div>
-  </div>
+  
+    Should we disqualify all low-scoring leads?
+    
+      
+        No—use scores for prioritization, not elimination. Low scores mean "lower priority," not "no potential." Here's a recommended approach: (1) Hot/Warm leads (70+): Immediate personal outreach, (2) Medium leads (40-69): Automated nurture campaigns until they engage more (score rises), (3) Cool/Cold leads (
+    
+  
 
-  <div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-    <h3 itemProp="name">How often should we update our scoring model?</h3>
-    <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-      <div itemProp="text">
+  
+    How often should we update our scoring model?
+    
+      
         Review monthly, but only make significant changes quarterly. Weekly monitoring catches issues early (e.g., a signal suddenly stops correlating with conversions). But avoid over-adjustment—models need 30-60 days of data to show statistically significant patterns. Major overhauls should happen every 6-12 months when your ideal customer profile evolves (e.g., you expand to new industries or company sizes). If using AI-powered scoring (like Optifai), the system auto-adjusts continuously, requiring only quarterly human review.
-      </div>
-    </div>
-  </div>
+      
+    
+  
 
-  <div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-    <h3 itemProp="name">Can lead scoring work for small teams (under 5 reps)?</h3>
-    <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-      <div itemProp="text">
-        Yes, especially for small teams with high inbound volume. If you receive 50+ leads per month but only have 2-3 reps, prioritization becomes critical. However, if your team handles <20 leads/month, manual qualification may be sufficient and faster than setting up automation. The breakeven point is typically 30-40 leads per month: above that threshold, lead scoring saves more time than it takes to maintain. For very small teams, consider using a simple 3-tier model (Hot/Medium/Cold) instead of 5 tiers.
-      </div>
-    </div>
-  </div>
-
-</div>
+  
+    Can lead scoring work for small teams (under 5 reps)?
+    
+      
+        Yes, especially for small teams with high inbound volume. If you receive 50+ leads per month but only have 2-3 reps, prioritization becomes critical. However, if your team handles 
+    
+  
 
 ---
 

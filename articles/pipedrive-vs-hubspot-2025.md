@@ -174,52 +174,41 @@ For **20–50 reps**, hybrid strategies emerge. You can operate Pipedrive or Opt
 
 ## FAQ
 
-<div itemScope itemType="https://schema.org/FAQPage">
-  <div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-    <h3 itemProp="name">Which is easier to use for non-technical teams?</h3>
-    <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-      <div itemProp="text">
-        Pipedrive wins on immediate ease because its pipeline-first interface and templated automations get a team live in under two weeks without specialist help. Optifai is close behind when you trust the AI queue to guide reps, while HubSpot becomes approachable only after the onboarding specialist configures lifecycle stages and workflows.
-      </div>
-    </div>
-  </div>
-
-  <div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-    <h3 itemProp="name">What's the real cost for a 20-person team?</h3>
-    <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-      <div itemProp="text">
+  
+    What's the real cost for a 20-person team?
+    
+      
         Expect Pipedrive Premium at roughly $980–$1,280/month, HubSpot Sales Hub Professional near $2,000/month plus the initial $1,500 onboarding, and Optifai Scale at about $664/month (Scale block plus five overflow seats) or $996/month for two Scale pods. Add-ons—Pipedrive's LeadBooster, HubSpot's marketing contacts, Optifai's optional enablement—shift totals upward.
-      </div>
-    </div>
-  </div>
+      
+    
+  
 
-  <div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-    <h3 itemProp="name">Can I switch later without losing data?</h3>
-    <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-      <div itemProp="text">
+  
+    Can I switch later without losing data?
+    
+      
         All three platforms support CSV exports and APIs. Pipedrive offers straightforward deal/contact exports but requires effort to map activities. HubSpot's richer data model means more cleanup when migrating. Optifai exports AI insights alongside core CRM records, though proprietary recommendation history will not translate to other systems without manual interpretation.
-      </div>
-    </div>
-  </div>
+      
+    
+  
 
-  <div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-    <h3 itemProp="name">Which has better customer support?</h3>
-    <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-      <div itemProp="text">
+  
+    Which has better customer support?
+    
+      
         HubSpot's paid tiers include 24/7 phone and email support plus a broad partner ecosystem. Pipedrive provides business-hours chat/email and phone support on higher tiers, which satisfies most SMB needs. Optifai offers in-app chat with a one-hour SLA on the Scale plan and optional dedicated customer success managers for $300/month.
-      </div>
-    </div>
-  </div>
+      
+    
+  
 
-  <div itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
-    <h3 itemProp="name">What if my team grows to 100+ reps?</h3>
-    <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-      <div itemProp="text">
+  
+    What if my team grows to 100+ reps?
+    
+      
         At that scale, evaluate whether you need enterprise governance. HubSpot Enterprise is ready today with hierarchical permissions and revenue operations tooling, albeit at a higher cost. Pipedrive can stretch with custom fields and integrations but may require a RevOps stack to handle complex routing. Optifai's roadmap includes advanced territory management; confirm timing before committing, or plan a phased transition to a more traditional enterprise CRM later.
-      </div>
-    </div>
-  </div>
-</div>
+      
+    
+  
 
 ---
 
