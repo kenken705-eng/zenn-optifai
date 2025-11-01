@@ -3,7 +3,7 @@ title: "Pipeline Health Benchmark 2025: Dashboard & Standards"
 emoji: "📈"
 type: "idea"
 topics: ["pipeline-management", "sales-benchmarks", "industry-report", "data-analysis", "sales-metrics"]
-published: false
+published: true
 canonical: https://optif.ai/media/articles/pipeline-health-dashboard
 ---
 

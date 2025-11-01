@@ -3,7 +3,7 @@ title: "Agentic AI in 2025: What SMB Sales Teams Need to Know"
 emoji: "📈"
 type: "idea"
 topics: ["ai", "sales-automation", "industry-trends", "agentic-ai", "sales"]
-published: false
+published: true
 canonical: https://optif.ai/media/articles/agentic-ai-enterprise-smb-impact-2025
 ---
 

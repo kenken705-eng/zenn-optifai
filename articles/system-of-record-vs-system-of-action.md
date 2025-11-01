@@ -3,7 +3,7 @@ title: "System of Record Is Dead. Welcome to System of Action."
 emoji: "💡"
 type: "idea"
 topics: ["system-of-action", "crm-philosophy", "sales-automation", "revenue-velocity", "ai-sales-tools"]
-published: false
+published: true
 canonical: https://optif.ai/media/articles/system-of-record-vs-system-of-action
 ---
 

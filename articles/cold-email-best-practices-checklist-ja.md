@@ -3,7 +3,7 @@ title: "コールドメールのベストプラクティス：2025年版10ステ
 emoji: "📝"
 type: "tech"
 topics: ["コールドメール", "メールアウトリーチ", "営業見込み客開拓", "リード生成", "b2b営業"]
-published: false
+published: true
 canonical: https://optif.ai/media/articles/cold-email-best-practices-checklist-ja
 ---
 

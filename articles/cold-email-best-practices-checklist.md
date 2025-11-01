@@ -3,7 +3,7 @@ title: "Cold Email Best Practices: 10-Step Checklist for 2025"
 emoji: "📝"
 type: "tech"
 topics: ["cold-email", "email-outreach", "sales-prospecting", "lead-generation", "b2b-sales"]
-published: false
+published: true
 canonical: https://optif.ai/media/articles/cold-email-best-practices-checklist
 ---
 

@@ -3,7 +3,7 @@ title: "Sales Metrics Dashboard: 15 Essential KPIs to Track in 2025"
 emoji: "📝"
 type: "tech"
 topics: ["sales-metrics", "kpis", "sales-dashboard", "pipeline-management", "revenue-operations"]
-published: false
+published: true
 canonical: https://optif.ai/media/articles/sales-metrics-dashboard-15-kpis
 ---
 

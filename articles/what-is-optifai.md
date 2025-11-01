@@ -3,7 +3,7 @@ title: "What is Optifai? The CRM Built for Salespeople First"
 emoji: "💡"
 type: "idea"
 topics: ["optifai", "crm", "system-of-action", "sales-automation", "revenue-velocity"]
-published: false
+published: true
 canonical: https://optif.ai/media/articles/what-is-optifai
 ---
 

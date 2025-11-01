@@ -3,7 +3,7 @@ title: "Revenue Intelligence Tools: 12 Best Platforms Compared (2025)"
 emoji: "🛠️"
 type: "tech"
 topics: ["revenue-intelligence", "sales-analytics", "forecasting", "conversation-intelligence", "sales"]
-published: false
+published: true
 canonical: https://optif.ai/media/articles/revenue-intelligence-tools-guide-2025
 ---
 

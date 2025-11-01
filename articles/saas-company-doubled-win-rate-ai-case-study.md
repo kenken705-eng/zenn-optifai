@@ -3,7 +3,7 @@ title: "SaaS Company Doubled Win Rate 18%→36% with AI (6mo)"
 emoji: "📊"
 type: "idea"
 topics: ["case-study", "win-rate-improvement", "ai-sales", "lead-scoring", "sales-automation"]
-published: false
+published: true
 canonical: https://optif.ai/media/articles/saas-company-doubled-win-rate-ai-case-study
 ---
 

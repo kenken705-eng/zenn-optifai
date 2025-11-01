@@ -3,7 +3,7 @@ title: "How to Build a Sales Playbook: 7 Essential Elements (+ Free Templates)"
 emoji: "📝"
 type: "tech"
 topics: ["sales-playbook", "sales-process", "sales-enablement", "sales-training", "sales-management"]
-published: false
+published: true
 canonical: https://optif.ai/media/articles/how-to-build-sales-playbook-template
 ---
 

@@ -3,7 +3,7 @@ title: "10 Best Lead Scoring Tools Compared (2025): AI-Powered Rankings"
 emoji: "📝"
 type: "tech"
 topics: ["lead-scoring", "sales-tools", "ai-sales", "b2b-sales", "marketing-automation"]
-published: false
+published: true
 canonical: https://optif.ai/media/articles/lead-scoring-tools-comparison-2025
 ---
 

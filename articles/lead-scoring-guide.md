@@ -3,7 +3,7 @@ title: "How to Set Up Lead Scoring in Your CRM: 5-Step Guide (2025)"
 emoji: "🔬"
 type: "tech"
 topics: ["lead-management", "sales-process", "crm-setup", "sales", "crm"]
-published: false
+published: true
 canonical: https://optif.ai/media/articles/lead-scoring-guide
 ---
 

@@ -3,7 +3,7 @@ title: "ARR Is a Vanity Metric. Welcome to Revenue Velocity."
 emoji: "💡"
 type: "idea"
 topics: ["revenue-velocity", "saas-metrics", "arr", "mrr", "sales-operations"]
-published: false
+published: true
 canonical: https://optif.ai/media/articles/arr-vanity-metric-revenue-velocity
 ---
 

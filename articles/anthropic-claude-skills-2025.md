@@ -3,7 +3,7 @@ title: "Anthropics Claude Skills: What SMB Sales Teams Need to Know (2025)"
 emoji: "📈"
 type: "idea"
 topics: ["ai-sales-tools", "claude-ai", "sales-automation", "industry-news", "sales"]
-published: false
+published: true
 canonical: https://optif.ai/media/articles/anthropic-claude-skills-2025
 ---
 

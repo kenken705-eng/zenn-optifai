@@ -3,7 +3,7 @@ title: "Sales Forecasting: 5 Methods with Templates for 2025"
 emoji: "📝"
 type: "tech"
 topics: ["sales-forecasting", "revenue-prediction", "sales-planning", "forecast-accuracy", "pipeline-management"]
-published: false
+published: true
 canonical: https://optif.ai/media/articles/sales-forecasting-methods-templates
 ---
 

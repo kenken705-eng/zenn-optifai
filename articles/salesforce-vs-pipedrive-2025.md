@@ -3,7 +3,7 @@ title: "Salesforce vs Pipedrive 2025: Enterprise Power or Sales Simplicity?"
 emoji: "📝"
 type: "tech"
 topics: ["crm", "tool-comparison", "salesforce", "pipedrive", "sales-tools"]
-published: false
+published: true
 canonical: https://optif.ai/media/articles/salesforce-vs-pipedrive-2025
 ---
 

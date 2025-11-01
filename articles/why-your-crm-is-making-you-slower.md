@@ -3,7 +3,7 @@ title: "Why Your CRM is Making You Slower: The Hidden Cost of Data Entry"
 emoji: "💡"
 type: "idea"
 topics: ["crm", "sales-productivity", "ai-automation", "system-of-action", "revenue-operations"]
-published: false
+published: true
 canonical: https://optif.ai/media/articles/why-your-crm-is-making-you-slower
 ---
 

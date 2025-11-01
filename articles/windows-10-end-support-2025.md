@@ -3,7 +3,7 @@ title: "Windows 10 End of Support: Turn IT Costs into Sales ROI (2025)"
 emoji: "📈"
 type: "idea"
 topics: ["industry-news", "b2b-sales", "crm", "cloud-migration", "it-investment"]
-published: false
+published: true
 canonical: https://optif.ai/media/articles/windows-10-end-support-2025
 ---
 

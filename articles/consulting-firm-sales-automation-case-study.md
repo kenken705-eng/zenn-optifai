@@ -3,7 +3,7 @@ title: "Consulting Firm Automated 80% Sales Admin, Grew Revenue 12% (6mo)"
 emoji: "📊"
 type: "idea"
 topics: ["case-study", "consulting-firms", "professional-services", "sales-automation", "crm-migration"]
-published: false
+published: true
 canonical: https://optif.ai/media/articles/consulting-firm-sales-automation-case-study
 ---
 

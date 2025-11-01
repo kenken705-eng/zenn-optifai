@@ -3,7 +3,7 @@ title: "Manufacturer Grew Revenue 20%, Cut Sales Cycle 46% (5mo)"
 emoji: "📊"
 type: "idea"
 topics: ["case-study", "industrial-manufacturing", "crm-migration", "sales-automation", "lead-scoring"]
-published: false
+published: true
 canonical: https://optif.ai/media/articles/industrial-manufacturer-crm-case-study
 ---
 

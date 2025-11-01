@@ -3,7 +3,7 @@ title: "Sales Pipeline Management 101: Complete Guide for SMB Teams (2025)"
 emoji: "📝"
 type: "tech"
 topics: ["sales-pipeline", "crm", "sales-management", "b2b-sales", "sales"]
-published: false
+published: true
 canonical: https://optif.ai/media/articles/sales-pipeline-management-guide
 ---
 

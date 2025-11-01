@@ -3,7 +3,7 @@ title: "From Missing Quota to Building a Product: SaaS Failure Story"
 emoji: "🔬"
 type: "tech"
 topics: ["ai-sales", "product-development", "revenue-velocity", "startup", "learning-from-failure"]
-published: false
+published: true
 canonical: https://optif.ai/media/articles/from-quota-miss-to-product-builder-en
 ---
 

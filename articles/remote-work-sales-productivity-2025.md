@@ -3,7 +3,7 @@ title: "Remote Work Worth 25% Pay Cut: Impact on SMB Sales (2025)"
 emoji: "📈"
 type: "idea"
 topics: ["remote-work", "sales-productivity", "hr-tech", "smb-sales", "sales"]
-published: false
+published: true
 canonical: https://optif.ai/media/articles/remote-work-sales-productivity-2025
 ---
 

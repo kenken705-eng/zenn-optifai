@@ -3,7 +3,7 @@ title: "SEO Faces 25% Decline from AI: GEO Guide for SMBs (2025)"
 emoji: "📈"
 type: "idea"
 topics: ["seo", "geo", "ai-search", "chatgpt", "perplexity"]
-published: false
+published: true
 canonical: https://optif.ai/media/articles/seo-decline-geo-rise-ai-search-2025
 ---
 

@@ -3,7 +3,7 @@ title: "SaaS Startup Cut CRM Costs 73%, Grew Revenue 156% (6mo)"
 emoji: "📊"
 type: "idea"
 topics: ["case-study", "crm-migration", "saas-startup", "sales-automation", "ai-sales"]
-published: false
+published: true
 canonical: https://optif.ai/media/articles/saas-startup-crm-migration-case-study
 ---
 

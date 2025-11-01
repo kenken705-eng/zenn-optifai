@@ -3,7 +3,7 @@ title: "5-Step Practical Guide to Doubling Sales Productivity with AI"
 emoji: "🔬"
 type: "tech"
 topics: ["ai", "sales-efficiency", "productivity", "sales-automation", "sales"]
-published: false
+published: true
 canonical: https://optif.ai/media/articles/ai-sales-productivity-5-steps
 ---
 

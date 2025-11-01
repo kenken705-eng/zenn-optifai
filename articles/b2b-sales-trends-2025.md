@@ -3,7 +3,7 @@ title: "5 AI-Driven B2B Sales Trends Reshaping Revenue in 2025"
 emoji: "📈"
 type: "idea"
 topics: ["b2b-sales", "ai", "sales-trends", "revenue-operations", "sales-automation"]
-published: false
+published: true
 canonical: https://optif.ai/media/articles/b2b-sales-trends-2025
 ---
 

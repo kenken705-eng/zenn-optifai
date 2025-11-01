@@ -3,7 +3,7 @@ title: "2年間、月次目標を達成できなかった僕が、プロダク�
 emoji: "🔬"
 type: "tech"
 topics: ["ai営業", "プロダクト開発", "revenue-velocity", "スタートアップ", "失敗から学ぶ"]
-published: false
+published: true
 canonical: https://optif.ai/media/articles/from-quota-miss-to-product-builder
 ---
 

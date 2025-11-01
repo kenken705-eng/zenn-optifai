@@ -3,7 +3,7 @@ title: "Why Your Best Salespeople Hate Your CRM (And Theyre Right)"
 emoji: "💡"
 type: "idea"
 topics: ["crm", "sales-productivity", "system-of-action", "revenue-per-input-hour", "ai-crm"]
-published: false
+published: true
 canonical: https://optif.ai/media/articles/why-best-salespeople-hate-crm
 ---
 

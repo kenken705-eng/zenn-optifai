@@ -3,7 +3,7 @@ title: "HubSpot 90% Admin Reduction: What SMBs Need to Know (2025)"
 emoji: "📈"
 type: "idea"
 topics: ["industry-news", "sales-productivity", "crm", "sales-automation", "sales"]
-published: false
+published: true
 canonical: https://optif.ai/media/articles/hubspot-admin-time-2025
 ---
 

@@ -3,7 +3,7 @@ title: "25 Best AI Sales Tools in 2025 (Free + Paid)"
 emoji: "🛠️"
 type: "tech"
 topics: ["ai-sales-tools", "sales-automation", "crm", "sales-intelligence", "lead-scoring"]
-published: false
+published: true
 canonical: https://optif.ai/media/articles/best-ai-sales-tools-2025
 ---
 

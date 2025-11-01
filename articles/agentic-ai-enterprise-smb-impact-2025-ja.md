@@ -3,7 +3,7 @@ title: "2025年のAgentic AI：中小規模営業チームが知っておくべ�
 emoji: "📈"
 type: "idea"
 topics: ["ai", "営業自動化", "業界トレンド", "agentic-ai", "sales"]
-published: false
+published: true
 canonical: https://optif.ai/media/articles/agentic-ai-enterprise-smb-impact-2025-ja
 ---
 

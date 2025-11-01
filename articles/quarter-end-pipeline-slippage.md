@@ -3,7 +3,7 @@ title: "Quarter-End Pipeline Slippage: 5-Step Emergency Response Guide"
 emoji: "🔬"
 type: "tech"
 topics: ["pipeline-management", "sales-operations", "crisis-management", "playbook", "sales-leadership"]
-published: false
+published: true
 canonical: https://optif.ai/media/articles/quarter-end-pipeline-slippage
 ---
 

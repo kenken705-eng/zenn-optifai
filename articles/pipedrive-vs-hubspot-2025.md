@@ -3,7 +3,7 @@ title: "Pipedrive vs HubSpot 2025: Which CRM for Small Sales Teams?"
 emoji: "📝"
 type: "tech"
 topics: ["crm", "tool-comparison", "pipedrive", "hubspot", "smb"]
-published: false
+published: true
 canonical: https://optif.ai/media/articles/pipedrive-vs-hubspot-2025
 ---
 

@@ -3,7 +3,7 @@ title: "Salesforce vs HubSpot vs Emerging Tools: 2025 Comparison"
 emoji: "📝"
 type: "tech"
 topics: ["crm", "tool-comparison", "salesforce", "hubspot", "sales"]
-published: false
+published: true
 canonical: https://optif.ai/media/articles/crm-comparison-2025
 ---
 

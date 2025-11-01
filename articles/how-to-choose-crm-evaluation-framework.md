@@ -3,7 +3,7 @@ title: "How to Choose a CRM: 10-Point Evaluation Framework"
 emoji: "📝"
 type: "tech"
 topics: ["crm", "sales-operations", "software-evaluation", "how-to-guide", "sales"]
-published: false
+published: true
 canonical: https://optif.ai/media/articles/how-to-choose-crm-evaluation-framework
 ---
 

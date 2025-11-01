@@ -3,7 +3,7 @@ title: "How to Reduce Sales Cycle Time: 12 Proven Strategies for 2025"
 emoji: "📝"
 type: "tech"
 topics: ["sales-cycle", "sales-velocity", "revenue-optimization", "b2b-sales", "sales-process"]
-published: false
+published: true
 canonical: https://optif.ai/media/articles/how-to-reduce-sales-cycle-time
 ---
 
